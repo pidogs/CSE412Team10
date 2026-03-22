@@ -1,1 +1,15 @@
-# CSE412Team10
+# Getting started
+
+## Create a virtual environment
+`python -m venv venv`
+
+## Activate Windows
+`venv\Scripts\activate`
+## Activate Mac or Linux
+`source venv/bin/activate`
+
+## Install libraries
+`pip install -r requirements.txt`
+
+## Start the server
+`python app.py`
