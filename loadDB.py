@@ -56,12 +56,13 @@ def resetDatabase():
     );
 
     CREATE TABLE "FuelType" (
-        "Name" VARCHAR(255) PRIMARY KEY,
+        "Name" VARCHAR(255),
         "Octane" INT,
         "Energy_MJ_kg" FLOAT,
         "Weight_lb_gal" FLOAT,
         "Leaded" BOOLEAN,
-        "Color" VARCHAR(50)
+        "Color" VARCHAR(50),
+        PRIMARY KEY("Name", "Octane")
     );
 
     CREATE TABLE "EngineType" (
