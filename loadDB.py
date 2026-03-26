@@ -86,7 +86,6 @@ def resetDatabase():
         "VariantName" VARCHAR(255) PRIMARY KEY,
         "AircraftName" VARCHAR(255) REFERENCES "Aircraft"("Name"),
         "Range" FLOAT,
-        "VariantOf" VARCHAR(255)
     );
 
     CREATE TABLE "Model_Engine_Usage" (
