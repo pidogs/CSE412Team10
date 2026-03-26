@@ -85,35 +85,43 @@ def resetDatabase():
     CREATE TABLE "Model" (
         "VariantName" VARCHAR(255) PRIMARY KEY,
         "AircraftName" VARCHAR(255) REFERENCES "Aircraft"("Name"),
-        "Range" FLOAT,
+        "Range" FLOAT
     );
 
     CREATE TABLE "Model_Engine_Usage" (
+        "ModelAircraftName" VARCHAR(255) REFERENCES "Aircraft"("Name"),
         "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
-        "EngineModelName" VARCHAR(255),
-        "NumberOfEngines" INT
+        "EngineModelName" VARCHAR(255) REFERENCES "EngineType"("ModelName"),
+        "NumberOfEngines" INT,
+        PRIMARY KEY ("ModelAircraftName", "ModelVariantName", "EngineModelName")
     );
 
     CREATE TABLE "Model_Manufacturer" (
+        "ModelAircraftName" VARCHAR(255) REFERENCES "Aircraft"("Name"),
         "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
         "ManufacturerName" VARCHAR(255) REFERENCES "Manufacturer"("Name"),
         "Country" VARCHAR(255),
-        "YearEnd" INT
+        "YearStart" INT,
+        "YearEnd" INT,
+        PRIMARY KEY ("ModelAircraftName", "ModelVariantName") 
     );
 
     CREATE TABLE "Model_Seating" (
+        "ModelAircraftName" VARCHAR(255) REFERENCES "Aircraft"("Name"),
         "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
         "SeatingID" INT REFERENCES "SeatingArrangement"("ID")
+        PRIMARY KEY ("ModelAircraftName", "ModelVariantName", "SeatingID")
     );
 
     CREATE TABLE "SpeedRecord" (
-        "RecordID" INT PRIMARY KEY,
-        "ReportedModel" VARCHAR(255),
-        "ModelVariantName" VARCHAR(255),
+        "RecordName" VARCHAR(255),
+        "Sponsor" VARCHAR(255),
+        "ModelAircraftName" VARCHAR(255) REFERENCES "Aircraft"("Name"),
+        "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
         "DateSet" DATE,
         "SpeedKph" FLOAT,
-        "Sponsor" VARCHAR(255),
-        "Description" TEXT
+        "Description" TEXT,
+        PRIMARY KEY ("RecordName", "Sponsor")
     );
     """
     cursor.execute(schema)
