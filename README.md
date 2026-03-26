@@ -13,3 +13,6 @@
 
 ## Start the server
 `python app.py`
+
+# Notes
+in Model_Manufacturer.csv 9999 is for still active and 9998 is for variable end date
