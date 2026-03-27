@@ -12,6 +12,7 @@
           flask
           flask-sqlalchemy
           psycopg2
+          requests
         ]);
       in
       {
