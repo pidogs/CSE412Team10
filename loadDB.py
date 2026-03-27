@@ -107,6 +107,18 @@ def resetDatabase():
         PRIMARY KEY ("ModelAircraftName", "ModelVariantName", "ManufacturerName")
     );
 
+    CREATE TABLE "EngineManufacturer" (
+        "EngineModelName" VARCHAR(255) PRIMARY KEY REFERENCES "EngineType"("ModelName"),
+        "ManufacturerName" VARCHAR(255) REFERENCES "Manufacturer"("Name"),
+        "Country" VARCHAR(255),
+        "YearEnd" INT
+    );
+
+    CREATE TABLE "EngineFuel" (
+        "EngineModelName" VARCHAR(255) PRIMARY KEY REFERENCES "EngineType"("ModelName"),
+        "FuelName" VARCHAR(255) REFERENCES "FuelType"("Name")
+    );
+    
     CREATE TABLE "ModelSeating" (
         "ModelAircraftName" VARCHAR(255),
         "ModelVariantName" VARCHAR(255),
