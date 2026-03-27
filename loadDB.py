@@ -27,9 +27,9 @@ def resetDatabase():
     # All tables to drop
     tables = [
         "SpeedRecord",
-        "Model_Seating",
-        "Model_Manufacturer",
-        "Model_Engine_Usage",
+        "ModelSeating",
+        "ModelManufacturer",
+        "ModelEngineUsage",
         "Model",
         "SeatingArrangement",
         "EngineType",
@@ -88,14 +88,14 @@ def resetDatabase():
         "VariantOf" VARCHAR(255)
     );
 
-    CREATE TABLE "Model_Engine_Usage" (
+    CREATE TABLE "ModelEngineUsage" (
         "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
         "EngineModelName" VARCHAR(255),
         "NumberOfEngines" INT,
         PRIMARY KEY ("ModelVariantName", "EngineModelName")
     );
 
-    CREATE TABLE "Model_Manufacturer" (
+    CREATE TABLE "ModelManufacturer" (
         "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
         "ManufacturerName" VARCHAR(255) REFERENCES "Manufacturer"("Name"),
         "Country" VARCHAR(255),
@@ -103,7 +103,7 @@ def resetDatabase():
         PRIMARY KEY ("ModelVariantName", "ManufacturerName")
     );
 
-    CREATE TABLE "Model_Seating" (
+    CREATE TABLE "ModelSeating" (
         "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
         "SeatingID" INT REFERENCES "SeatingArrangement"("ID"),
         PRIMARY KEY ("ModelVariantName", "SeatingID")
@@ -154,7 +154,7 @@ def loadCSV(file_path, table_name, columns):
             # if missing rows then pad rows
             while len(cleanRow) < len(columns):
                 cleanRow.append(None)
-                
+            
             cursor.execute(query, cleanRow[:len(columns)])
 
     conn.commit()
