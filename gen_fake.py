@@ -264,7 +264,7 @@ if __name__ == "__main__":
         f.writelines(contents)
 
     with open(FAKE_DIR+"/SpeedRecord.csv", "w") as f:
-        cols = ["RecordID", "ModelAircraftName", "ModelVariantName", "DateSet", "SpeedKph", "Sponsor", "Description"]
+        cols = ["RecordID", "ModelAircraftName", "ModelVariantName", "DateSet", "Speed_kph", "Sponsor", "Description"]
         contents = [cols]+speed_record_data
         contents = [",".join(row)+"\n" for row in contents]
         f.writelines(contents)
