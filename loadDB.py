@@ -158,9 +158,7 @@ def loadCSV(file_path, table_name):
     with open(file_path, "r", encoding="utf-8") as f:
         reader = csv.reader(f)
         header = next(reader)
-
-        print("header:",header)
-        
+                
         # Prepare insert query with quoted column names
         quoted_cols = [f'"{col}"' for col in header]
         cols = ", ".join(quoted_cols)
