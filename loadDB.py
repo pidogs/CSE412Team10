@@ -2,7 +2,7 @@ import csv
 import os
 import psycopg2
 
-CSV_DIR = "CSV"
+CSV_DIR = "CSV_FAKE"
 
 # Database connection parameters from your Nix environment
 DB_NAME = "aircraft_db"
@@ -146,7 +146,7 @@ def resetDatabase():
     print("Tables created successfully")
 
 
-def loadCSV(file_path, table_name, columns):
+def loadCSV(file_path, table_name):
     if not os.path.exists(file_path):
         print(f"Warning: File {file_path} not found")
         return
@@ -157,26 +157,25 @@ def loadCSV(file_path, table_name, columns):
 
     with open(file_path, "r", encoding="utf-8") as f:
         reader = csv.reader(f)
-        header = next(reader)  # unused
+        header = next(reader)
+
+        print("header:",header)
         
         # Prepare insert query with quoted column names
-        quoted_cols = [f'"{col}"' for col in columns]
+        quoted_cols = [f'"{col}"' for col in header]
         cols = ", ".join(quoted_cols)
-        placeholders = ", ".join(["%s"] * len(columns))
+        placeholders = ", ".join(["%s"] * len(header))
         query = f'INSERT INTO "{table_name}" ({cols}) VALUES ({placeholders})'
-
-        if table_name == "Model_Engine_Usage":
-            query += ' ON CONFLICT ("ModelVariantName", "EngineModelName") DO NOTHING'
 
         for row in reader:
             # Replace empty strings with None so database will use NULLs
             cleanRow = [val if val.strip() != "" else None for val in row]
             
             # if missing rows then pad rows
-            while len(cleanRow) < len(columns):
+            while len(cleanRow) < len(header):
                 cleanRow.append(None)
             
-            cursor.execute(query, cleanRow[:len(columns)])
+            cursor.execute(query, cleanRow[:len(header)])
 
     conn.commit()
     cursor.close()
@@ -188,63 +187,53 @@ def main():
     resetDatabase()
     
     # Parents
-    loadCSV(f"{CSV_DIR}/Aircraft.csv", "Aircraft", ["Name"])
-    loadCSV(f"{CSV_DIR}/Manufacturer.csv", "Manufacturer", ["Name", "YearFounded"])
+    loadCSV(f"{CSV_DIR}/Aircraft.csv", "Aircraft")
+    loadCSV(f"{CSV_DIR}/Manufacturer.csv", "Manufacturer")
     loadCSV(
         f"{CSV_DIR}/FuelType.csv", 
         "FuelType", 
-        ["Name", "Octane", "Energy_MJ_kg", "Weight_lb_gal", "Leaded", "Color"]
     )
     loadCSV(
         f"{CSV_DIR}/EngineType.csv", 
         "EngineType", 
-        ["ModelName", "Thrust", "CylinderCount", "CylinderConfig", "PropSize"]
     )
     loadCSV(
         f"{CSV_DIR}/SeatingArrangement.csv", 
         "SeatingArrangement", 
-        ["ID", "FirstClassCount", "BusinessClassCount", "EconomyCount", "PilotCount", "OtherCount"]
     )
 
     # Models
     loadCSV(
         f"{CSV_DIR}/Model.csv", 
         "Model", 
-        ["VariantName", "AircraftName", "Range", "VariantOf"]
     )
 
     # Model Relationships
     loadCSV(
         f"{CSV_DIR}/ModelEngineUsage.csv", 
         "ModelEngineUsage", 
-        ["ModelVariantName", "EngineModelName", "NumberOfEngines"]
     )
     loadCSV(
         f"{CSV_DIR}/ModelManufacturer.csv", 
         "ModelManufacturer", 
-        ["ModelVariantName", "ManufacturerName", "Country", "YearEnd"]
     )
     loadCSV(
         f"{CSV_DIR}/EngineManufacturer.csv", 
-        "ModelSeating", 
-        ["ModelVariantName", "SeatingID"]
+        "EngineManufacturer", 
     )
     loadCSV(
         f"{CSV_DIR}/EngineFuel.csv", 
-        "ModelSeating", 
-        ["ModelVariantName", "SeatingID"]
+        "EngineFuel", 
     )
     loadCSV(
         f"{CSV_DIR}/ModelSeating.csv", 
         "ModelSeating", 
-        ["ModelVariantName", "SeatingID"]
     )
     
     # Records
     loadCSV(
         f"{CSV_DIR}/SpeedRecord.csv", 
         "SpeedRecord", 
-        ["RecordID", "ReportedModel", "ModelVariantName", "DateSet", "SpeedKph", "Sponsor", "Description"]
     )
     
     print("Database seeding completed successfully!")
