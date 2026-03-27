@@ -17,7 +17,7 @@ def gen_boolean():
 def gen_date():
     year = str(gen_int(1900,2026)).rjust(4, "0")
     month = str(gen_int(1,12)).rjust(2, "0")
-    day = str(gen_int(1,31)).rjust(2, "0") # Wow february 31st!
+    day = str(gen_int(1,28)).rjust(2, "0")
     return "-".join((year, month, day))
 
 def gen_aircraft(num_rows):
@@ -265,6 +265,6 @@ if __name__ == "__main__":
 
     with open(FAKE_DIR+"/SpeedRecord.csv", "w") as f:
         cols = ["RecordID", "ModelAircraftName", "ModelVariantName", "DateSet", "SpeedKph", "Sponsor", "Description"]
-        contents = [cols]+model_seating_data
+        contents = [cols]+speed_record_data
         contents = [",".join(row)+"\n" for row in contents]
         f.writelines(contents)
