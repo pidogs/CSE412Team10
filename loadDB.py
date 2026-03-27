@@ -28,6 +28,8 @@ def resetDatabase():
     tables = [
         "SpeedRecord",
         "ModelSeating",
+        "EngineFuel",
+        "EngineManufacturer",
         "ModelManufacturer",
         "ModelEngineUsage",
         "Model",
@@ -214,18 +216,28 @@ def main():
 
     # Model Relationships
     loadCSV(
-        f"{CSV_DIR}/Model_Engine_Usage.csv", 
-        "Model_Engine_Usage", 
+        f"{CSV_DIR}/ModelEngineUsage.csv", 
+        "ModelEngineUsage", 
         ["ModelVariantName", "EngineModelName", "NumberOfEngines"]
     )
     loadCSV(
-        f"{CSV_DIR}/Model_Manufacturer.csv", 
-        "Model_Manufacturer", 
+        f"{CSV_DIR}/ModelManufacturer.csv", 
+        "ModelManufacturer", 
         ["ModelVariantName", "ManufacturerName", "Country", "YearEnd"]
     )
     loadCSV(
-        f"{CSV_DIR}/Model_Seating.csv", 
-        "Model_Seating", 
+        f"{CSV_DIR}/EngineManufacturer.csv", 
+        "ModelSeating", 
+        ["ModelVariantName", "SeatingID"]
+    )
+    loadCSV(
+        f"{CSV_DIR}/EngineFuel.csv", 
+        "ModelSeating", 
+        ["ModelVariantName", "SeatingID"]
+    )
+    loadCSV(
+        f"{CSV_DIR}/ModelSeating.csv", 
+        "ModelSeating", 
         ["ModelVariantName", "SeatingID"]
     )
     
