@@ -28,6 +28,7 @@ def gen_aircraft(num_rows):
     for key in keys:
         key_list = list(key)
         result.append(key_list)
+    result.append(["Boeing"]) # Add some recognizable data
     return result
 
 def gen_manufacturer(num_rows):
@@ -183,13 +184,13 @@ def gen_speed_record(num_rows, model_data, model_filter):
     return result
 
 if __name__ == "__main__":
-    aircraft_data = gen_aircraft(100)
-    manufacturer_data = gen_manufacturer(100)
+    aircraft_data = gen_aircraft(1000)
+    manufacturer_data = gen_manufacturer(500)
     fuel_data = gen_fuel_type(100)
     engine_data = gen_engine_type(100)
-    seat_arrangement_data = gen_seating_arrangement(100)
-    model_data = gen_model(100, aircraft_data, lambda x: x[0:1])
-    model_engine_data = gen_model_engine(100, model_data, lambda x:x[0:2], engine_data, lambda x:x[0:1])
+    seat_arrangement_data = gen_seating_arrangement(200)
+    model_data = gen_model(10000, aircraft_data, lambda x: x[0:1])
+    model_engine_data = gen_model_engine(5000, model_data, lambda x:x[0:2], engine_data, lambda x:x[0:1])
     model_manufacturer_data = gen_model_manufacturer(100, model_data, lambda x:x[0:2], manufacturer_data, lambda x:x[0:1])
     engine_manufacturer_data = gen_engine_manufacturer(100, engine_data, lambda x:x[0:1], manufacturer_data, lambda x:x[0:1])
     engine_fuel_data = gen_engine_fuel(100, engine_data, lambda x:x[0:1], fuel_data, lambda x:x[0:1])
