@@ -82,41 +82,50 @@ def resetDatabase():
     );
 
     CREATE TABLE "Model" (
-        "VariantName" VARCHAR(255) PRIMARY KEY,
+        "VariantName" VARCHAR(255),
         "AircraftName" VARCHAR(255) REFERENCES "Aircraft"("Name"),
         "Range" FLOAT,
-        "VariantOf" VARCHAR(255)
+        PRIMARY KEY("VariantName", "AircraftName")
     );
 
     CREATE TABLE "ModelEngineUsage" (
-        "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
-        "EngineModelName" VARCHAR(255),
+        "ModelAircraftName" VARCHAR(255),
+        "ModelVariantName" VARCHAR(255),
+        "EngineModelName" VARCHAR(255) REFERENCES "EngineType"("ModelName"),
         "NumberOfEngines" INT,
-        PRIMARY KEY ("ModelVariantName", "EngineModelName")
+        FOREIGN KEY ("ModelAircraftName", "ModelVariantName") REFERENCES "Model"("AircraftName", "VariantName"),
+        PRIMARY KEY ("ModelAircraftName", "ModelVariantName", "EngineModelName")
     );
 
     CREATE TABLE "ModelManufacturer" (
-        "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
+        "ModelAircraftName" VARCHAR(255),
+        "ModelVariantName" VARCHAR(255),
         "ManufacturerName" VARCHAR(255) REFERENCES "Manufacturer"("Name"),
         "Country" VARCHAR(255),
         "YearEnd" INT,
-        PRIMARY KEY ("ModelVariantName", "ManufacturerName")
+        FOREIGN KEY ("ModelAircraftName", "ModelVariantName") REFERENCES "Model"("AircraftName", "VariantName"),
+        PRIMARY KEY ("ModelAircraftName", "ModelVariantName", "ManufacturerName")
     );
 
     CREATE TABLE "ModelSeating" (
-        "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
+        "ModelAircraftName" VARCHAR(255),
+        "ModelVariantName" VARCHAR(255),
         "SeatingID" INT REFERENCES "SeatingArrangement"("ID"),
-        PRIMARY KEY ("ModelVariantName", "SeatingID")
+        FOREIGN KEY ("ModelAircraftName", "ModelVariantName") REFERENCES "Model"("AircraftName", "VariantName"),
+        PRIMARY KEY ("ModelAircraftName", "ModelVariantName", "SeatingID")
     );
 
     CREATE TABLE "SpeedRecord" (
-        "RecordID" INT PRIMARY KEY,
+        "RecordID" INT,
         "ReportedModel" VARCHAR(255),
+        "ModelAircraftName" VARCHAR(255),
         "ModelVariantName" VARCHAR(255),
         "DateSet" DATE,
         "SpeedKph" FLOAT,
         "Sponsor" VARCHAR(255),
-        "Description" TEXT
+        "Description" TEXT,
+        FOREIGN KEY ("ModelAircraftName", "ModelVariantName") REFERENCES "Model"("AircraftName", "VariantName"),
+        PRIMARY KEY ("ModelAircraftName", "ModelVariantName", "RecordID")
     );
     """
     cursor.execute(schema)
