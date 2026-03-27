@@ -144,6 +144,9 @@ def loadCSV(file_path, table_name, columns):
         placeholders = ", ".join(["%s"] * len(columns))
         query = f'INSERT INTO "{table_name}" ({cols}) VALUES ({placeholders})'
 
+        if table_name == "Model_Engine_Usage":
+            query += ' ON CONFLICT ("ModelVariantName", "EngineModelName") DO NOTHING'
+
         for row in reader:
             # Replace empty strings with None so database will use NULLs
             cleanRow = [val if val.strip() != "" else None for val in row]
