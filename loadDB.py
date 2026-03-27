@@ -116,7 +116,7 @@ def resetDatabase():
     );
 
     CREATE TABLE "SpeedRecord" (
-        "RecordID" INT,
+        "RecordID" INT PRIMARY KEY,
         "ReportedModel" VARCHAR(255),
         "ModelAircraftName" VARCHAR(255),
         "ModelVariantName" VARCHAR(255),
@@ -125,7 +125,6 @@ def resetDatabase():
         "Sponsor" VARCHAR(255),
         "Description" TEXT,
         FOREIGN KEY ("ModelAircraftName", "ModelVariantName") REFERENCES "Model"("AircraftName", "VariantName"),
-        PRIMARY KEY ("ModelAircraftName", "ModelVariantName", "RecordID")
     );
     """
     cursor.execute(schema)
