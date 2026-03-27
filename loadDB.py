@@ -84,8 +84,8 @@ def resetDatabase():
     );
 
     CREATE TABLE "Model" (
-        "VariantName" VARCHAR(255),
         "AircraftName" VARCHAR(255) REFERENCES "Aircraft"("Name"),
+        "VariantName" VARCHAR(255),
         "Range" FLOAT,
         PRIMARY KEY("VariantName", "AircraftName")
     );
@@ -131,7 +131,6 @@ def resetDatabase():
 
     CREATE TABLE "SpeedRecord" (
         "RecordID" INT PRIMARY KEY,
-        "ReportedModel" VARCHAR(255),
         "ModelAircraftName" VARCHAR(255),
         "ModelVariantName" VARCHAR(255),
         "DateSet" DATE,
