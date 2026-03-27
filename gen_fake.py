@@ -64,7 +64,7 @@ def gen_engine_type(num_rows):
     for key in keys:
         key_list = list(key)
         key_list.append(gen_float())
-        key_list.append(gen_float())
+        key_list.append(gen_int())
         key_list.append(gen_varchar())
         key_list.append(gen_float())
         result.append(key_list)

@@ -69,7 +69,7 @@ def resetDatabase():
     CREATE TABLE "EngineType" (
         "ModelName" VARCHAR(255) PRIMARY KEY,
         "Thrust" FLOAT,
-        "CylinderCount" FLOAT,
+        "CylinderCount" INT,
         "CylinderConfig" VARCHAR(100),
         "PropSize" FLOAT
     );
