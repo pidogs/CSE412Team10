@@ -19,5 +19,7 @@ conda-env/
 *.pyo
 *.pyd
 
+CSV_FAKE
+
 # DB
 .db
