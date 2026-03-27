@@ -124,7 +124,7 @@ def resetDatabase():
         "SpeedKph" FLOAT,
         "Sponsor" VARCHAR(255),
         "Description" TEXT,
-        FOREIGN KEY ("ModelAircraftName", "ModelVariantName") REFERENCES "Model"("AircraftName", "VariantName"),
+        FOREIGN KEY ("ModelAircraftName", "ModelVariantName") REFERENCES "Model"("AircraftName", "VariantName")
     );
     """
     cursor.execute(schema)
