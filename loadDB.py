@@ -109,7 +109,7 @@ def resetDatabase():
     CREATE TABLE "Model_Seating" (
         "ModelAircraftName" VARCHAR(255) REFERENCES "Aircraft"("Name"),
         "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
-        "SeatingID" INT REFERENCES "SeatingArrangement"("ID")
+        "SeatingID" INT REFERENCES "SeatingArrangement"("ID"),
         PRIMARY KEY ("ModelAircraftName", "ModelVariantName", "SeatingID")
     );
 
