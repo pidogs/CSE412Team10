@@ -26,8 +26,8 @@ WHERE "Name" = 'Noche Airworks';
 
 -- delete from speed record
 DELETE FROM "SpeedRecord"
-WHERE "RecordID" = (
-  SELECT MIN("RecordID") FROM "SpeedRecord"
+WHERE "DateSet" = (
+  SELECT MIN("DateSet") FROM "SpeedRecord"
 );
 
 -- filter/sorting models
