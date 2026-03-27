@@ -134,7 +134,7 @@ def resetDatabase():
         "ModelAircraftName" VARCHAR(255),
         "ModelVariantName" VARCHAR(255),
         "DateSet" DATE,
-        "SpeedKph" FLOAT,
+        "Speed_kph" FLOAT,
         "Sponsor" VARCHAR(255),
         "Description" TEXT,
         FOREIGN KEY ("ModelAircraftName", "ModelVariantName") REFERENCES "Model"("AircraftName", "VariantName")
