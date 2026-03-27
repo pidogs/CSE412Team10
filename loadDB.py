@@ -91,19 +91,22 @@ def resetDatabase():
     CREATE TABLE "Model_Engine_Usage" (
         "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
         "EngineModelName" VARCHAR(255),
-        "NumberOfEngines" INT
+        "NumberOfEngines" INT,
+        PRIMARY KEY ("ModelVariantName", "EngineModelName")
     );
 
     CREATE TABLE "Model_Manufacturer" (
         "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
         "ManufacturerName" VARCHAR(255) REFERENCES "Manufacturer"("Name"),
         "Country" VARCHAR(255),
-        "YearEnd" INT
+        "YearEnd" INT,
+        PRIMARY KEY ("ModelVariantName", "ManufacturerName")
     );
 
     CREATE TABLE "Model_Seating" (
         "ModelVariantName" VARCHAR(255) REFERENCES "Model"("VariantName"),
-        "SeatingID" INT REFERENCES "SeatingArrangement"("ID")
+        "SeatingID" INT REFERENCES "SeatingArrangement"("ID"),
+        PRIMARY KEY ("ModelVariantName", "SeatingID")
     );
 
     CREATE TABLE "SpeedRecord" (
