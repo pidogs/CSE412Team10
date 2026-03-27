@@ -130,14 +130,15 @@ def resetDatabase():
     );
 
     CREATE TABLE "SpeedRecord" (
-        "RecordID" INT PRIMARY KEY,
+        "Name" VARCHAR(255),
+        "Sponsor" VARCHAR(255),
         "ModelAircraftName" VARCHAR(255),
         "ModelVariantName" VARCHAR(255),
         "DateSet" DATE,
         "Speed_kph" FLOAT,
-        "Sponsor" VARCHAR(255),
         "Description" TEXT,
-        FOREIGN KEY ("ModelAircraftName", "ModelVariantName") REFERENCES "Model"("AircraftName", "VariantName")
+        FOREIGN KEY ("ModelAircraftName", "ModelVariantName") REFERENCES "Model"("AircraftName", "VariantName"),
+        PRIMARY KEY ("Name", "Sponsor")
     );
     """
     cursor.execute(schema)
@@ -158,7 +159,7 @@ def loadCSV(file_path, table_name):
     with open(file_path, "r", encoding="utf-8") as f:
         reader = csv.reader(f)
         header = next(reader)
-                
+
         # Prepare insert query with quoted column names
         quoted_cols = [f'"{col}"' for col in header]
         cols = ", ".join(quoted_cols)

@@ -170,7 +170,7 @@ def gen_model_seating(num_rows, model_data, model_filter, seat_arrangement_data,
 def gen_speed_record(num_rows, model_data, model_filter):
     keys = set()
     while len(keys) < num_rows:
-        keys.add((gen_int(0, num_rows*100), ))
+        keys.add((gen_varchar(), gen_varchar()))
     result = []
     for key in keys:
         key_list = list(key)
@@ -178,7 +178,6 @@ def gen_speed_record(num_rows, model_data, model_filter):
             key_list.append(col)
         key_list.append(gen_date())
         key_list.append(gen_float())
-        key_list.append(gen_varchar())
         key_list.append(gen_varchar())
         result.append(key_list)
     return result
@@ -264,7 +263,7 @@ if __name__ == "__main__":
         f.writelines(contents)
 
     with open(FAKE_DIR+"/SpeedRecord.csv", "w") as f:
-        cols = ["RecordID", "ModelAircraftName", "ModelVariantName", "DateSet", "Speed_kph", "Sponsor", "Description"]
+        cols = ["Name", "Sponsor", "ModelAircraftName", "ModelVariantName", "DateSet", "Speed_kph", "Description"]
         contents = [cols]+speed_record_data
         contents = [",".join(row)+"\n" for row in contents]
         f.writelines(contents)
