@@ -1,26 +1,11 @@
 import csv
 import os
-import psycopg2
-
+import db
 CSV_DIR = "CSV_FAKE"
-
-# Database connection parameters from your Nix environment
-DB_NAME = "aircraft_db"
-DB_USER = "aircraft_db"
-
-DB_HOST = os.environ.get("PGHOST", "127.0.0.1")
-DB_PORT = os.environ.get("PGPORT", "5432")
-
-
-def getConnection():
-    return psycopg2.connect(
-        dbname=DB_NAME, user=DB_USER, host=DB_HOST, port=DB_PORT,password=""
-    )
-
 
 def resetDatabase():
     print("Connecting to database")
-    conn = getConnection()
+    conn = db.getConnection()
     conn.autocommit = True
     cursor = conn.cursor()
 
@@ -153,7 +138,7 @@ def loadCSV(file_path, table_name):
         return
 
     print(f"Loading data into {table_name} from {file_path}")
-    conn = getConnection()
+    conn = db.getConnection()
     cursor = conn.cursor()
 
     with open(file_path, "r", encoding="utf-8") as f:
