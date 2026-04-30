@@ -10,6 +10,11 @@ def home():
 # Returns results of queries as JSON data.
 @app.route("/data")
 def handle_query():
+    # Standard format:
+    # {
+    #   description: list[str] containing column names
+    #   data: list[list[<query data result type>]] containing all rows of the output
+    # }
     return jsonify({})
 # End Justin's section
 
