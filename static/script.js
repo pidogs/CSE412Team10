@@ -6,9 +6,9 @@ const errorDiv = document.getElementById('error');
 
 // Sort dropdown options per scope (until /columns?scope= is implemented server-side).
 const SORT_COLUMNS_BY_SCOPE = {
-  models: ['AircraftName', 'VariantName', 'Range'],
-  aircraft: ['Name'],
-  manufacturers: ['Name', 'YearFounded'],
+  Model: ['AircraftName', 'VariantName', 'Range'],
+  Aircraft: ['Name'],
+  Manufacturer: ['Name', 'YearFounded'],
 };
 
 function loadSortColumns() {
