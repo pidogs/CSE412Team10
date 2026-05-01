@@ -13,6 +13,8 @@
           flask-sqlalchemy
           psycopg2
           requests
+          rapidfuzz
+          pandas
         ]);
       in
       {

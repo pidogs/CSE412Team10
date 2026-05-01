@@ -1,7 +1,7 @@
 import csv
 import os
 import db
-CSV_DIR = "CSV_FAKE"
+CSV_DIR = "SYNTHETIC_CSV"
 
 def resetDatabase():
     print("Connecting to database")

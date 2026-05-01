@@ -23,3 +23,5 @@ CSV_FAKE
 
 # DB
 .db
+.devcontainer
+.cache
