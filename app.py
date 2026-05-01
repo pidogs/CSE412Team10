@@ -34,20 +34,30 @@ def handle_query():
     #   description: list[str] containing column names
     #   data: list[list[<query data result type>]] containing all rows of the output
     # }
+    table_search_column = {
+        "Model": "VariantName",
+        "Aircraft": "Name",
+        "Manufacturer": "Name",
+    }
     user_table = request.args.get("scope")
     user_search = request.args.get("search")
     user_sort_col = request.args.get("sort_col")
     user_sort_dir = request.args.get("sort_dir")
     if user_table is None:
-        return Response("Missing Table Scope", 401)
+        return Response("Missing Table Scope", 400)
+    if user_table not in table_search_column:
+        return Response("Unrecognized or Disallowed Table", 404)
     conn = dbHelper.getConnection()
     cur = conn.cursor()
 
     if user_sort_col == "" or user_sort_col == None: # Don't want sorting
         cur.execute(sql.SQL("""
             SELECT * 
-            FROM {};
-        """).format(sql.Identifier(user_table)))
+            FROM {}
+            WHERE {} LIKE %s;
+            ;
+        """).format(sql.Identifier(user_table), sql.Identifier(table_search_column[user_table])),
+        (f"%{user_search}%",))
     else:
         # We have f-string here but it is being used just to specify
         # DESC or ASC (after our own processing) so it should be safe
@@ -56,8 +66,10 @@ def handle_query():
         cur.execute(sql.SQL(f"""
             SELECT * 
             FROM {{}}
+            WHERE {{}} LIKE %s
             ORDER BY {{}} {sort_dir};
-        """).format(sql.Identifier(user_table), sql.Identifier(user_sort_col))) # type: ignore
+        """).format(sql.Identifier(user_table), sql.Identifier(table_search_column[user_table]), sql.Identifier(user_sort_col)),
+        (f"%{user_search}%",))
     result = {
         "description": [col.name for col in cur.description],
         "data": cur.fetchall()
