@@ -1,9 +1,0 @@
-Name,Octane,Energy_MJ_kg,Weight_lb_gal,Leaded,Color
-100LL (Avgas),100,44.0,6.0,True,Blue
-100/130 (Avgas),100,44.0,6.0,True,Green
-80/87 (Avgas),80,44.0,6.0,True,Red
-Jet A,0,43.1,6.7,False,Straw/Clear
-Jet A-1,0,43.1,6.7,False,Straw/Clear
-Jet B,0,42.8,6.5,False,Straw/Clear
-Mogas (91),91,43.5,6.1,False,Yellow
-Sustainable Aviation Fuel (SAF),0,43.0,6.7,False,Straw/Clear

@@ -1,0 +1,501 @@
+EngineModelName,FuelName
+GE90-115B,JP-8
+CFM56-7B,Jet B
+PW4056,JP-8
+Trent XWB,Jet B
+LEAP‑1A,HEFA
+LEAP‑1B,Synthetic Kerostene
+LEAP‑1C,Jet A-1
+IAE V2500,HEFA
+PW1000G,Synthetic Kerostene
+AE2100,JP-8
+CF6‑80E1,Bio-Jet 100
+Pratt & Whitney F135,Avgas 140
+PW4084,100LL
+GE95,Jet B
+CFM RISE,Synthetic Kerostene
+Rolls‑Royce RTM321,Jet A-1
+GE408,Avgas 140
+TRB1000,100LL-Green
+Lycoming O‑320,100LL-Green
+Lycoming O‑360,Bio-Jet 100
+Continental IO‑520,100LL
+Rolls‑Royce Merlin,HEFA
+Pratt & Whitney R‑1830,100LL-Green
+GE T700,Synthetic Kerostene
+GE T58,Synthetic Kerostene
+Pratt & Whitney JT8D,HEFA
+CFM56‑5A,Jet B
+GE CF34,100LL-Green
+PW1200G,Jet B
+AE3000,JP-8
+GE9X,Avgas 140
+Trent 7000,Avgas 140
+Pratt & Whitney PW1500G,JP-5
+Rolls‑Royce RB.211-535,Bio-Jet 100
+GE CF6‑80C2,Avgas 140
+DCNS Evolution 20,Bio-Jet 100
+Pratt & Whitney F100,HEFA
+GE95-2B,JP-8
+CFM RISE‑2,JP-5
+PW4070,HEFA
+Trent 1000,HEFA
+GE90-130,JP-8
+Lycoming O‑540,100LL-Green
+Continental TSIO‑520,100LL
+Pratt & Whitney PT6,100LL
+GE H80,100LL
+GE90-150,Avgas 140
+CFM56‑7C,JP-8
+PW127,JP-8
+Trent 900,Avgas 140
+GE414,JP-5
+Lycoming O‑235,HEFA
+Continental IO‑320,Bio-Jet 100
+Pratt & Whitney JT15D,Jet B
+GE95-1B,Jet B
+Rolls‑Royce Spey,Synthetic Kerostene
+PW1500G‑A,Jet B
+GE9X‑2,Synthetic Kerostene
+Trent 7000‑A2,Jet B
+PW1000G‑E,HEFA
+CFM RISE‑3,JP-5
+Lycoming O‑340,Synthetic Kerostene
+Continental IO‑360,HEFA
+Rolls‑Royce Tyne,Jet A-1
+GE T700‑AD‑800,HEFA
+Pratt & Whitney R‑985,Jet A-1
+GE404,Avgas 140
+PW127G,100LL-Green
+GE90-115B-2,Jet B
+CFM56‑5B,100LL-Green
+PW4057,Synthetic Kerostene
+Trent 800,Synthetic Kerostene
+LEAP‑1D,Synthetic Kerostene
+IAE BR715,Jet B
+GE9X‑3,Jet A-1
+PW1500G‑B,Bio-Jet 100
+Rolls‑Royce AE2100D,HEFA
+GE CF6‑80C2F,Jet B
+CFM56‑5C,JP-5
+PW4056‑2,HEFA
+Trent 700‑1,100LL-Green
+Lycoming O‑303,JP-5
+Continental IO‑340,JP-5
+Pratt & Whitney JT8D‑200,100LL
+GE90-130‑2,HEFA
+PW127PW‑A,JP-5
+Trent 800‑A2,HEFA
+GE T700‑AD‑400,JP-5
+PW1000G‑C,Synthetic Kerostene
+CFM RISE‑4,JP-8
+Lycoming O‑290,JP-5
+Continental TSIO‑540,100LL
+Pratt & Whitney PT6A‑67F,JP-5
+GE90-150‑2,Jet B
+PW4000‑94,HEFA
+Trent 900‑B4,Jet A-1
+GE95‑3,Avgas 140
+CFM56‑7D,Jet B
+PW1500G‑C,Avgas 140
+GE9X‑4,JP-8
+Trent 7000‑B2,100LL-Green
+PW127G‑B,100LL-Green
+Rolls‑Royce Merlin‑1650,Avgas 140
+GE T58‑001,Avgas 140
+PRM100,Bio-Jet 100
+PW1000G‑D,Jet A-1
+CFM56‑B6,JP-5
+Trent 800‑B4,Avgas 140
+GE90-115B‑A,Synthetic Kerostene
+PW1500G‑D,HEFA
+CFM RISE‑5,Jet B
+Lycoming O‑350,JP-5
+Continental IO‑320‑E,HEFA
+Pratt & Whitney F135‑A,JP-5
+GE9X‑5,Jet B
+Trent 7000‑C3,100LL-Green
+PW1500G‑E,Synthetic Kerostene
+CFM56‑B1,100LL-Green
+GE90‑115B‑B,Avgas 140
+PW4056‑3,JP-5
+Rolls‑Royce Avon,Avgas 140
+GE90‑115B‑C,HEFA
+PW1500G‑F,100LL-Green
+LEAP‑1E,Jet B
+Trent 800‑C5,HEFA
+Aegean AE-210,100LL-Green
+SkyPower SP-3000,JP-5
+Nimbus NX-150,HEFA
+Helios HX-400,HEFA
+Vortex V-1200,Bio-Jet 100
+Falcon FT-850,Synthetic Kerostene
+Zephyr ZP-250,100LL-Green
+Orion OX-700,100LL
+Mirage MX-180,100LL
+Thunderbolt TB-500,HEFA
+Astra AS-330,Bio-Jet 100
+Pulsar PP-900,Synthetic Kerostene
+Cobalt CB-650,JP-5
+Lumen LS-210,100LL-Green
+Eclipse EP-400,Jet B
+Nimble NF-120,100LL-Green
+Quantum Q-1500,Jet B
+Zenith ZN-200,Bio-Jet 100
+Strato ST-750,Jet A-1
+Delta DX-340,100LL-Green
+Falcon FX-190,JP-8
+Glide GM-560,JP-5
+Pioneer PR-880,Avgas 140
+Aurora AR-320,Synthetic Kerostene
+Helix HX-110,Jet A-1
+Nebula NB-620,Jet A-1
+Titanium Ti-950,JP-5
+Vortex VX-270,100LL
+Solaris SX-480,Avgas 140
+Zenith ZT-140,100LL-Green
+Apex AP-350,HEFA
+Boreal B-210,Jet B
+Celestial C-730,Jet A-1
+Dynamo DM-590,JP-5
+Eon EH-160,Jet B
+Falcon F-910,Jet A-1
+Gale G-330,Bio-Jet 100
+Helicifer H-440,HEFA
+Icarus IC-220,Avgas 140
+Jupiter JX-580,HEFA
+Kestrel KS-190,100LL-Green
+Lynx LX-660,Avgas 140
+Maverick MV-310,Avgas 140
+Nimbus N-100,Jet B
+Orbit O-420,HEFA
+Phoenix Ph-770,100LL
+Quartz Q-250,JP-8
+Raptor RT-880,HEFA
+Stratus ST-130,Jet A-1
+Tempest TM-540,100LL-Green
+Upsilon UV-990,JP-5
+Vivid V-380,Synthetic Kerostene
+Warden W-210,Avgas 140
+Xenon X-620,Synthetic Kerostene
+Yield Y-150,Jet B
+Zenith ZN-330,JP-8
+Aether AE-470,Jet A-1
+Breeze BR-880,Jet B
+Crest CB-340,Jet B
+Dart DS-200,100LL-Green
+Eclipse EX-620,JP-8
+Falcon FX-240,Bio-Jet 100
+Glide GM-510,Jet A-1
+Helix HX-390,100LL-Green
+Iris IR-720,Bio-Jet 100
+Javelin J-130,Jet B
+Kite KS-450,JP-8
+Lumen LS-880,Avgas 140
+Mirage MX-290,JP-5
+Nimbus NX-310,100LL-Green
+Orion OX-460,JP-8
+Pioneer PR-190,HEFA
+Quantum Q-560,Avgas 140
+Raptor RT-730,Avgas 140
+Strato ST-210,Synthetic Kerostene
+Tempest TM-610,JP-5
+Upsilon UV-340,Jet B
+Vivid V-420,Synthetic Kerostene
+Warden W-480,Bio-Jet 100
+Xenon X-750,HEFA
+Yield Y-290,Jet B
+Zenith ZN-560,Jet B
+Aether AE-880,JP-8
+Breeze BR-150,Jet B
+Crest CB-620,Bio-Jet 100
+Dart DS-380,Synthetic Kerostene
+Eclipse EX-490,Jet A-1
+Falcon FX-370,Jet B
+Glide GM-660,JP-5
+Helix HX-530,Jet B
+Iris IR-810,JP-5
+Javelin J-210,100LL
+Kite KS-990,HEFA
+Lumen LS-340,Synthetic Kerostene
+Mirage MX-470,100LL
+Nimbus NX-210,HEFA
+Orion OX-560,Synthetic Kerostene
+Pioneer PR-710,JP-8
+Quantum Q-230,100LL-Green
+Raptor RT-450,Jet B
+Strato ST-380,JP-8
+Tempest TM-720,100LL
+Upsilon UV-480,Jet B
+Vivid V-620,HEFA
+Warden W-330,100LL-Green
+Xenon X-540,Synthetic Kerostene
+Yield Y-420,HEFA
+Zenith ZN-750,HEFA
+Aegean AE-340,JP-5
+SkyPower SP-560,JP-8
+Nimbus NX-470,100LL-Green
+Falcon FT-880,HEFA
+Helix HX-260,JP-8
+Lumen LS-550,JP-5
+Mirage MX-610,JP-5
+Nimbus NX-380,HEFA
+Orion OX-720,100LL
+Pioneer PR-430,Synthetic Kerostene
+Quantum Q-880,JP-8
+Raptor RT-910,JP-5
+Strato ST-460,JP-5
+Tempest TM-840,JP-8
+Upsilon UV-630,HEFA
+Vivid V-750,100LL
+Warden W-590,100LL
+Xenon X-680,JP-8
+Yield Y-610,Jet A-1
+Zenith ZN-880,Synthetic Kerostene
+Aether AE-720,Jet A-1
+Breeze BR-210,HEFA
+Crest CB-790,Jet B
+Dart DS-950,100LL
+Eclipse EX-780,Jet A-1
+Falcon FT-340,Bio-Jet 100
+Glide GM-470,JP-5
+Helix HX-550,Bio-Jet 100
+Iris IR-990,Bio-Jet 100
+Javelin J-840,Synthetic Kerostene
+Kestrel KS-320,Synthetic Kerostene
+Maverick MV-710,Synthetic Kerostene
+Nimbus NX-540,HEFA
+Orion OX-910,100LL
+Pioneer PR-560,JP-8
+Quantum Q-430,Bio-Jet 100
+Raptor RT-620,Jet A-1
+Strato ST-580,Bio-Jet 100
+Tempest TM-160,100LL-Green
+Upsilon UV-770,Avgas 140
+Vivid V-850,Bio-Jet 100
+Warden W-730,100LL
+Xenon X-410,Jet B
+Yield Y-880,HEFA
+Zenith ZN-960,Jet A-1
+GE9X-117B,100LL-Green
+Rolls-Royce UltraFan-2000,JP-8
+Pratt & Whitney PW1500GX,JP-5
+CFM International LEAP-X2,Jet A-1
+MTU Aero Engines V2500-E1,Avgas 140
+Safran M80,Synthetic Kerostene
+Pratt & Whitney F119-PW-100,JP-5
+GE J404-190,100LL-Green
+Rolls-Royce AE 2100,Bio-Jet 100
+Honeywell HTF7000,100LL-Green
+Rolls-Royce Trent XWB-84,Jet B
+Airbus EB200,Jet A-1
+Boeing 787 GEnx-2B67,Synthetic Kerostene
+Rolls-Royce RB.211-524,Avgas 140
+Pratt & Whitney PW4000,JP-8
+Honeywell TFE731,100LL
+PT6A-67F,Bio-Jet 100
+Lycoming O-320,Avgas 140
+Rotax 912 iS,100LL
+Thielert PD 300,JP-5
+GE9X-117B-2,Avgas 140
+Rolls-Royce Ultrafan-2500,HEFA
+Pratt & Whitney PW1900G,Jet B
+CFM International LEAP-1E,Bio-Jet 100
+Airbus A320neo CFM LEAP-1A,100LL
+GE9X-117B-3,100LL-Green
+Rolls-Royce Trent 7000,Jet A-1
+GE GEnx-2B61,100LL-Green
+PT6D-31C,Jet A-1
+PW1500G PMT,Jet A-1
+Honeywell CEO-300,JP-8
+Safran Silvercrest,Bio-Jet 100
+MTU Vteen-X,100LL
+GE9X-117B-4,JP-5
+Rolls-Royce Eagle III,100LL-Green
+Boeing 777X GTF-2B,Bio-Jet 100
+PT6A-62B,HEFA
+Lycoming IO-360,JP-8
+Rotax 915 iS,100LL-Green
+GE9X-117B-5,JP-8
+Rolls-Royce Trent 500,JP-8
+CFM LEAP-X1,JP-8
+Airbus A350 PW4000,Bio-Jet 100
+Thompson Aero AE-110,100LL
+Rolls-Royce Merlin 101,Jet B
+GE J408-190,JP-8
+Honeywell TFE731-600,Bio-Jet 100
+Safran CFM56-7B4,100LL-Green
+Pratt & Whitney R-987,100LL-Green
+GE9X-117B-6,Jet A-1
+Rolls-Royce Trent 900,100LL
+CFM LEAP-1B,HEFA
+GE9X-117B-7,JP-5
+Rolls-Royce Ultrafan-3000,Synthetic Kerostene
+PW1500G PMT-2,JP-8
+Honeywell HTF97,JP-8
+MTU V2519,Bio-Jet 100
+Safran M55,Bio-Jet 100
+Lycoming O-580,HEFA
+Rotax 912 iS-155,Jet A-1
+GE9X-117B-8,Jet A-1
+Rolls-Royce Eagle IV,JP-5
+Pratt & Whitney PW6000-2,Synthetic Kerostene
+CFM LEAP-2,HEFA
+Honeywell CEO-200,Synthetic Kerostene
+MTU V2500-E2,Bio-Jet 100
+GE9X-117B-9,HEFA
+Rolls-Royce Trent XWB-900,JP-8
+PW127N,100LL-Green
+Lycoming IO-540,HEFA
+Rotax 912 iS-200,Synthetic Kerostene
+GE9X-117B-10,HEFA
+Rolls-Royce Merlin 120,JP-8
+CFM LEAP-3,Jet A-1
+Honeywell HTF7000-2,Synthetic Kerostene
+Safran Silvercrest-2,100LL
+Pratt & Whitney PW4062,Jet B
+GE J404-200,100LL-Green
+Rolls-Royce AE 2100F,HEFA
+PT6D-21B,JP-5
+Honeywell TFE731-400,Avgas 140
+Safran M85,Jet A-1
+GE9X-117B-11,Jet A-1
+Rolls-Royce Eagle V,HEFA
+PW1500G PMT-3,HEFA
+Honeywell HTF7000-3,Avgas 140
+MTU V2500-E3,JP-8
+CFM LEAP-X3,Avgas 140
+Lycoming O-360,JP-5
+Rotax 915 iS-250,Synthetic Kerostene
+GE9X-117B-12,Bio-Jet 100
+Rolls-Royce Trent 750,Jet A-1
+Pratt & Whitney PW127Q,JP-5
+CFM LEAP-4,JP-8
+Honeywell CEO-350,HEFA
+Safran M90,100LL-Green
+Lycoming O-430,JP-8
+AeroTech V1-100,Avgas 140
+AeroTech V2-200,Jet B
+AeroTech V3-300,Synthetic Kerostene
+AeroTech V4-400,Jet B
+AeroTech V5-500,JP-8
+AeroTech V6-600,Jet A-1
+AeroTech V7-700,Jet A-1
+AeroTech V8-800,Synthetic Kerostene
+AeroTech V9-900,100LL
+AeroTech V10-1000,Avgas 140
+SkyPower 200,100LL-Green
+SkyPower 400,Bio-Jet 100
+SkyPower 600,JP-5
+SkyPower 800,JP-5
+SkyPower 1000,Jet B
+PearlFusion X1,Jet B
+PearlFusion X2,HEFA
+PearlFusion X3,Synthetic Kerostene
+PearlFusion X4,HEFA
+PearlFusion X5,100LL-Green
+PearlFusion X6,Avgas 140
+PearlFusion X7,Avgas 140
+PearlFusion X8,100LL-Green
+NimbusCore Alpha,Jet B
+NimbusCore Beta,JP-5
+NimbusCore Gamma,Bio-Jet 100
+NimbusCore Delta,Jet A-1
+NimbusCore Epsilon,Jet B
+VanguardX 101,Jet A-1
+VanguardX 102,Bio-Jet 100
+VanguardX 103,100LL
+VanguardX 104,JP-8
+VanguardX 105,100LL
+VanguardX 106,Synthetic Kerostene
+HelixBoost 210,Jet A-1
+HelixBoost 220,Synthetic Kerostene
+HelixBoost 230,JP-5
+HelixBoost 240,Avgas 140
+HelixBoost 250,Synthetic Kerostene
+HelixBoost 260,Jet A-1
+QuartzEngine M1,100LL-Green
+QuartzEngine M2,100LL
+QuartzEngine M3,HEFA
+QuartzEngine M4,Jet A-1
+QuartzEngine M5,100LL-Green
+QuartzEngine M6,Synthetic Kerostene
+AuroraDrive 301,Jet B
+AuroraDrive 302,HEFA
+AuroraDrive 303,Avgas 140
+AuroraDrive 304,Synthetic Kerostene
+AuroraDrive 305,HEFA
+AuroraDrive 306,Jet A-1
+TitanForce 401,HEFA
+TitanForce 402,Synthetic Kerostene
+TitanForce 403,Avgas 140
+TitanForce 404,Jet A-1
+TitanForce 405,JP-8
+TitanForce 406,JP-8
+EclipseCore A1,JP-8
+EclipseCore A2,JP-5
+EclipseCore A3,100LL-Green
+EclipseCore A4,100LL-Green
+EclipseCore A5,Synthetic Kerostene
+EclipseCore A6,Jet A-1
+ZenithPower B1,HEFA
+ZenithPower B2,Bio-Jet 100
+ZenithPower B3,JP-5
+ZenithPower B4,Jet A-1
+ZenithPower B5,Jet A-1
+ZenithPower B6,Synthetic Kerostene
+StratoEngine C1,Avgas 140
+StratoEngine C2,Avgas 140
+StratoEngine C3,100LL
+StratoEngine C4,JP-8
+StratoEngine C5,Avgas 140
+StratoEngine C6,100LL
+PulseJet D1,JP-8
+PulseJet D2,Synthetic Kerostene
+PulseJet D3,Jet B
+PulseJet D4,JP-5
+PulseJet D5,JP-5
+PulseJet D6,HEFA
+NebulaDrive E1,100LL-Green
+NebulaDrive E2,Jet A-1
+NebulaDrive E3,Jet A-1
+NebulaDrive E4,100LL
+NebulaDrive E5,Jet B
+NebulaDrive E6,Bio-Jet 100
+AlphaCore F1,Jet A-1
+AlphaCore F2,100LL-Green
+AlphaCore F3,JP-5
+AlphaCore F4,HEFA
+AlphaCore F5,JP-5
+AlphaCore F6,Bio-Jet 100
+BetaBoost G1,Avgas 140
+BetaBoost G2,Bio-Jet 100
+BetaBoost G3,Jet B
+BetaBoost G4,Synthetic Kerostene
+BetaBoost G5,Jet B
+BetaBoost G6,100LL
+GammaPower H1,Bio-Jet 100
+GammaPower H2,JP-5
+GammaPower H3,100LL-Green
+GammaPower H4,Bio-Jet 100
+GammaPower H5,Bio-Jet 100
+GammaPower H6,Bio-Jet 100
+DeltaDrive I1,JP-5
+DeltaDrive I2,100LL
+DeltaDrive I3,100LL-Green
+DeltaDrive I4,Synthetic Kerostene
+DeltaDrive I5,Avgas 140
+DeltaDrive I6,HEFA
+EpsilonCore J1,Avgas 140
+EpsilonCore J2,Synthetic Kerostene
+EpsilonCore J3,Synthetic Kerostene
+EpsilonCore J4,Synthetic Kerostene
+EpsilonCore J5,Jet B
+EpsilonCore J6,Jet B
+ZetaEngine K1,100LL-Green
+ZetaEngine K2,JP-8
+ZetaEngine K3,100LL
+ZetaEngine K4,Bio-Jet 100
+ZetaEngine K5,JP-5
+ZetaEngine K6,Synthetic Kerostene
+ThetaCore L1,JP-8

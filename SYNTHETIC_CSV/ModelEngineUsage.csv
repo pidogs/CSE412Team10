@@ -1,0 +1,501 @@
+ModelAircraftName,ModelVariantName,EngineModelName,NumberOfEngines
+TempestEcho 7,LR-10,Rotax 912 iS-200,3
+F-42 Storm,B-89,Rolls-Royce RB.211-524,3
+Stratos Aero 710,LR-60,PW4056‑3,1
+F-15 Eagle,200-41,PW127N,1
+Vapor Zephyr,Max-6,CFM RISE‑5,3
+F-90 Titan IV,100-61,BetaBoost G5,1
+Hawkwing Summit,ER-17,AlphaCore F1,2
+Aurora Zephyr,100-51,TitanForce 401,2
+Quicksilver Q-200,100-18,Safran M90,1
+Meteor 45,A-11,CFM56‑5A,1
+AeroNova 88,B-98,Rolls-Royce Ultrafan-2500,1
+DHC-2 Beaver,Neo-95,GammaPower H1,4
+F-85 Quasar II,ER-39,Nimbus NX-540,4
+Hawker 400XP,ER-51,Lycoming O‑290,4
+Miles M.78 Mohawk,Mk.I-60,Zenith ZN-880,3
+Glacier G-3,200-82,Zenith ZN-750,2
+StratoCore Aero 820,B-3,TitanForce 405,3
+Diamond DA40 Diamond Star,LR-14,Nimbus NX-380,3
+Skyward 101,ER-62,Lycoming O‑320,1
+Velocity 12,200-87,Zephyr ZP-250,2
+Coyote Surge,B-88,Continental IO‑320,2
+Apex Horizon,B-68,Aurora AR-320,3
+F-92 Guardian II,200-91,PW4056,3
+Titanic Talon,Mk.I-7,Rolls-Royce Eagle IV,4
+Lockheed Martin F-22A Raptor,100-26,Upsilon UV-340,1
+Solaris Jet,B-39,Glide GM-510,3
+Arcadia 68 Aero 540,ER-8,Yield Y-420,4
+Nebula Jet,Max-93,Zenith ZN-330,1
+de Havilland DH.106 Vampire,Mk.I-51,Glide GM-660,1
+Cessna 208 Caravan,200-35,Safran Silvercrest,4
+Quartz Q-8,B-5,Pratt & Whitney PW1500G,4
+Celestial Dynamics Photon,ER-40,Tempest TM-610,4
+Ford Trimotor,LR-58,Boeing 777X GTF-2B,3
+Aurorae 300,Max-62,PulseJet D5,4
+AeroPulse 555,ER-3,Lycoming O‑350,4
+Kamov Ka-50 Black Shark,100-9,Upsilon UV-630,2
+Stellar Talon,200-48,Continental IO‑520,1
+Sukhoi Su-47,200-45,Xenon X-540,2
+QinetiQ Zephyr,200-93,Strato ST-210,4
+Falcon V,ER-52,Rolls-Royce Merlin 120,3
+Nimbus Pro,LR-36,Raptor RT-450,1
+Bell 47,Neo-43,Nimbus NX-150,4
+Aurora Lumina,Mk.I-89,GE95,4
+Boeing 747-400,LR-78,Rolls-Royce Ultrafan-2500,4
+Falcon V,Neo-11,PRM100,2
+AeroZen 19,B-21,QuartzEngine M1,4
+Bristol Beaufighter,A-19,Trent 7000‑B2,2
+Dassault Rafale M,A-43,Nimbus NX-210,4
+Supermarine Attacker,A-92,Honeywell TFE731-600,4
+Falcon Talon,B-87,PearlFusion X6,4
+Heinkel He 111,LR-68,AuroraDrive 302,2
+Neon Raptor,A-11,GE CF6‑80C2,4
+Glacier Glider,Max-92,Lycoming O-430,2
+Embraer EMB 312 Tucano,Max-18,AeroTech V1-100,2
+Aurora Skyblade,Neo-29,Boreal B-210,2
+Iron Falcon,Mk.I-38,GE GEnx-2B61,4
+Lockheed Martin F-35A Lightning II,100-91,Falcon FT-880,2
+Sukhoi Su-57,B-43,Pioneer PR-710,4
+Bombardier Global 7500,100-4,GE9X‑4,3
+Strato-5,200-23,PW127PW‑A,3
+Bell 47,ER-1,HelixBoost 240,2
+Titanium Echo,A-95,Zenith ZN-880,2
+F-9F Panther,100-77,PT6D-21B,4
+Embraer EMB 120 Brasilia,ER-43,BetaBoost G2,1
+Orion 7 Skyfactor,100-72,Warden W-210,2
+Tu-160 Blackjack,Max-29,GE9X-117B-10,1
+Falcon F-160,Max-31,AeroTech V9-900,1
+Jaguar,200-24,GE CF6‑80C2F,4
+Quantum Leap,100-76,Tempest TM-720,2
+Cosmic Voyager,A-60,PW1200G,3
+Gulfstream G650ER,Max-26,PW1500G PMT,1
+HorizonX 45,ER-65,Mirage MX-470,3
+Eclipse Vanguard,Mk.I-31,PW4056‑3,1
+Photon P-88,A-49,Honeywell TFE731-400,4
+Mil Mi-24 Hind,ER-96,Pioneer PR-190,4
+Tawny Eagle (fictional),100-69,Continental IO‑320‑E,1
+Northrop T-38 Talon,100-42,TitanForce 404,1
+Nebula Navigator,Mk.I-11,Pratt & Whitney PT6A‑67F,2
+Quill 5,A-77,GE T700‑AD‑400,2
+de Havilland DH.82 Tiger Moth,100-76,Thompson Aero AE-110,4
+Omega Valkyrie,100-58,Honeywell TFE731-400,2
+Vortex Aero 120,100-35,CFM LEAP-X1,3
+Dornier Do 335,LR-35,Tempest TM-160,4
+Talon 300,Max-18,Raptor RT-880,2
+Beechcraft King Air 350,ER-95,PulseJet D2,2
+Zenith CH 701,ER-95,GE90-130‑2,4
+Celestia One,Mk.I-35,PulseJet D1,4
+F-68 Zephyrus,LR-68,Quartz Q-250,4
+Azimuth 9,200-33,Airbus A320neo CFM LEAP-1A,2
+Celeris Aero 420,200-32,Stratus ST-130,4
+Jetstreamer 22,200-77,AeroTech V4-400,3
+Republic RC-3 Seabee,Neo-80,Trent 700‑1,4
+Orion Aero VX-1,Neo-16,Rolls-Royce Trent 750,2
+AeroStar 300,Neo-11,Xenon X-540,4
+Nyx 50,B-3,Celestial C-730,3
+Apex X7,A-63,Vivid V-420,2
+AuroraNimbus 9,100-84,GE9X-117B-6,4
+Heliosphere 3,Neo-49,Eon EH-160,1
+AeroSparrow 120,100-56,Pratt & Whitney PW1500GX,4
+Supermarine Sea Hurricane,Mk.I-23,ZetaEngine K6,1
+EclipseGale 7,Neo-10,Boeing 787 GEnx-2B67,1
+Airbus A380-800,ER-58,Cobalt CB-650,1
+Dawn Echo,Mk.I-5,GE9X-117B-12,1
+Crimson Horizon,100-22,Upsilon UV-480,4
+Cessna 180 Skywagon,100-46,CFM LEAP-4,2
+Astra Prime,Mk.I-31,Lycoming O-580,1
+AeroPulse AP-12,LR-11,CFM LEAP-2,3
+Embraer Phenom 100,100-61,HelixBoost 240,4
+Vorticity Velocity 200,100-66,GE90-150‑2,3
+Concorde,Neo-30,CFM International LEAP-1E,4
+Celestia 2,B-94,Stratus ST-130,4
+Ironclad Jet,A-50,Pulsar PP-900,4
+Cyclone CX-3,ER-65,Upsilon UV-990,1
+Citation X,Neo-61,Nimbus NX-310,3
+Cosmic Pulse II,Max-73,Upsilon UV-990,4
+Vought XF-1U,LR-69,Yield Y-420,2
+Horizon Explorer,200-63,Vivid V-850,3
+Nimbus 2A,B-40,HelixBoost 240,3
+Falconet X1,B-96,Quantum Q-880,4
+Aether 7,Mk.I-74,AuroraDrive 302,2
+Aether-9,100-84,Iris IR-720,2
+Aermacchi M-345 Masters,Neo-30,Continental TSIO‑520,2
+Mirage F1,A-25,Airbus A320neo CFM LEAP-1A,1
+Oblivion Cruiser,A-96,MTU V2500-E3,4
+Eclipse 88,Neo-57,Kestrel KS-320,4
+Lockheed Martin L-1011 TriStar,200-93,BetaBoost G4,3
+AuroraGlide 7,100-34,Warden W-730,3
+Eclipse-3,Max-17,Lynx LX-660,3
+Douglas DC-3 Skytrain,B-62,HelixBoost 250,1
+Vortex 2,Mk.I-98,Lycoming IO-540,1
+Vickers Vimy,Neo-10,HelixBoost 240,2
+Rafale M,A-77,GE H80,4
+Cyclone CX-3,ER-65,LEAP‑1D,4
+AeroRanger 88,B-5,Raptor RT-730,1
+Mikoyan-Gurevich MiG-29K,LR-36,PW127PW‑A,2
+Nebula Drifter,200-81,PW1500G‑F,4
+Solaris Eclipse,B-26,Honeywell CEO-350,3
+Titanium Hawk,LR-35,CFM International LEAP-X2,1
+Grumman J2F Duck,A-49,AeroTech V2-200,3
+Mirage 4000,Neo-53,Rolls-Royce Eagle V,4
+F-25 Sabre,Mk.I-60,HelixBoost 210,2
+Tu-22M3 Backfire-C,ER-37,PT6D-31C,2
+Astra Prime,ER-5,Dynamo DM-590,2
+Lockheed Martin F-22 Raptor,Neo-52,Lycoming O-320,1
+Stratos Breaker,Mk.I-5,NimbusCore Beta,1
+Stinson L-19,LR-69,EclipseCore A5,4
+AeroVoyager 250,Max-18,Yield Y-610,3
+Crimson Cloud,Max-88,CFM56-7B,3
+Valkyrie Aerospace VX-1,100-69,DeltaDrive I5,2
+Arcadia Aero 180,200-28,GE414,3
+Stratos Wave,Neo-69,Safran M55,1
+Eurocopter EC135,100-31,Raptor RT-620,1
+Titanus Aero,B-80,TitanForce 401,2
+AeroQuill 7,100-83,NebulaDrive E2,1
+Skyliner 300,Mk.I-55,GammaPower H6,4
+Falcon 7X,LR-60,Honeywell HTF97,2
+Vanguard Aero V-300,Max-43,Crest CB-620,2
+Eclipse V,200-45,Kite KS-990,2
+MiG-21 Fulcrum,A-25,Rolls-Royce RB.211-524,4
+Mystic Sky,B-70,GE9X‑5,4
+Antonov An-24,100-13,GE90‑115B‑B,1
+Upsilon Aero 101,200-22,GE90-150‑2,2
+F-4G Wild Weasel,A-27,Rolls-Royce Eagle III,1
+Boeing KC-46 Pegasus,100-52,GE9X-117B-10,1
+Sopwith Camel,Max-15,GE95‑3,4
+Skyward Aero 790,A-50,Upsilon UV-770,2
+Galactic Phoenix,Mk.I-23,Quartz Q-250,4
+Eurofighter EFA,B-21,Phoenix Ph-770,1
+VortexEcho 8,200-62,Pratt & Whitney F135‑A,3
+Aurorae 5,Mk.I-19,NimbusCore Gamma,2
+AuroraBorealis 3,A-50,Eclipse EX-780,1
+Supermarine Attacker,200-84,Rotax 915 iS-250,1
+Ryan Brougham,LR-83,CFM LEAP-2,3
+Helix Aero 220,200-53,GE9X-117B,1
+F-86 Cyclone IV,LR-3,AeroTech V10-1000,3
+Cessna 206 Stationair,LR-91,Rotax 912 iS-200,4
+AeroVista 800,200-32,PW127N,2
+Raven Aero 63,Mk.I-45,DeltaDrive I3,2
+F-30 Nightingale,Neo-77,Eclipse EX-490,2
+Polikarpov I-16,B-87,AuroraDrive 302,4
+Titanium Sky,LR-84,Vivid V-380,1
+Nebula Echo II,LR-91,GE404,3
+Sirocco 3,100-20,Astra AS-330,4
+F-71 Thunderstrike,Max-21,Pratt & Whitney JT8D,1
+Tempest Future Fighter,Neo-47,Lycoming IO-540,2
+Nebula Nightfall,LR-87,Xenon X-410,3
+Celestial Dynamics Photon,200-71,CFM LEAP-3,3
+Skyward 9,Neo-49,Orion OX-910,3
+Alenia Aeronautica C-27J Spartan,A-26,ThetaCore L1,1
+Quantum Glider,Mk.I-65,NimbusCore Alpha,3
+TerraFleet Aero 440,ER-75,Rolls‑Royce Spey,2
+F-33 Vengeance,Mk.I-95,GammaPower H5,1
+StratoAero Strato-1,100-20,Strato ST-460,2
+Aether-9,Max-11,StratoEngine C5,2
+Crimson Sky,200-45,PW4056,1
+Tempest Aero 90,LR-24,GE9X-117B,4
+Shenyang J-11,LR-44,AeroTech V9-900,2
+Helix Tempest,B-26,NimbusCore Epsilon,2
+Bombardier Global 7500,100-39,Orion OX-460,2
+Lockheed F-16,Mk.I-35,Crest CB-340,2
+Cyclone-5,A-30,ZenithPower B6,4
+F-80 Guardian,100-49,AeroTech V6-600,2
+X-15,100-54,NimbusCore Alpha,3
+AeroApex 4,Mk.I-86,CFM LEAP-X3,4
+StratoStorm 300,B-36,GE9X-117B-5,2
+Kestrel Fury,Neo-79,Iris IR-990,3
+A-3 Skywarrior,200-27,Lycoming IO-360,2
+Valkyrie Guardian,200-47,Continental IO‑360,3
+Helios HX-200,Mk.I-26,BetaBoost G4,4
+Nebula Whisper,LR-79,Kite KS-450,2
+Focke-Wulf Fw 190 Würger,Neo-88,HelixBoost 240,2
+Learjet 45,Mk.I-80,HelixBoost 220,1
+Bell 206 JetRanger,100-76,Vivid V-380,4
+Nebula Surge,200-8,GE90‑115B‑B,1
+Zephyr Aero 810,LR-17,CFM LEAP-X1,1
+Bell AH-1 Cobra,B-65,HelixBoost 240,2
+Ironclad Jet,A-19,Glide GM-560,1
+Northrop F-5 Tiger II,Mk.I-92,GammaPower H5,2
+Blohm & Voss Ta 154,Mk.I-55,Lycoming O-320,4
+AeroVanguard 17,LR-93,Strato ST-580,3
+Boeing Stratocruiser,ER-32,GE CF34,4
+Quartz Q-8,100-13,Yield Y-420,2
+Embraer EMB 120 Brasilia,A-57,Breeze BR-880,2
+SkyPulse 125,B-94,Rolls-Royce Merlin 101,1
+Helios Solar Glider,Neo-23,QuartzEngine M1,3
+Beechcraft Model 18,Max-4,Lycoming O‑320,4
+AeroForge 22,A-18,Pratt & Whitney F119-PW-100,1
+Lockheed Martin P-3 Orion,100-83,Orion OX-460,3
+Avro Shackleton,ER-83,Rotax 915 iS,4
+AstraJet Astra-5,100-39,GammaPower H6,4
+Helios Aero 18,Max-87,Honeywell CEO-350,3
+ThunderMist 6,ER-43,Falcon FX-190,1
+Thunderbolt X,B-21,Xenon X-410,3
+Vanguard Aero Vanguard-5,100-84,Nimbus NX-310,2
+Nebula Surge,100-34,Pratt & Whitney R‑985,3
+StarRider 12,Neo-88,Icarus IC-220,2
+Peregrine P-200,Neo-5,Upsilon UV-480,4
+Handley Page Harrow,Mk.I-72,DeltaDrive I5,1
+Celeste Voyager,Mk.I-74,PW127G,3
+Helix 14,B-48,Falcon FT-340,1
+Thunderbolt Mk. IV,LR-57,Crest CB-620,2
+Ilyushin Il-76,Mk.I-4,GE9X‑4,4
+Piaggio PD-150,Neo-11,Rolls‑Royce Merlin‑1650,2
+JetMagnet 400,B-39,Raptor RT-910,1
+Lumen Arc,B-49,Quantum Q-230,3
+De Havilland DH.60 Moth,ER-99,Kite KS-450,2
+Quantum Glider,100-17,Warden W-480,2
+Griffin Elite,200-71,Upsilon UV-630,2
+Quicksilver Q-200,100-18,Honeywell HTF97,1
+Photon P-88,200-62,Xenon X-750,3
+Starlight 101,Neo-86,Pratt & Whitney PT6A‑67F,1
+Argus 300,LR-24,Lycoming O-320,2
+AeroHawk,Neo-86,CFM RISE,2
+Blaze Breaker,Mk.I-39,Tempest TM-720,4
+Embraer EMB 120 Brasilia,Max-56,GE9X,4
+Mirage 4000,Neo-35,Safran M80,4
+Electra E-9,A-49,MTU Vteen-X,4
+Consolidated B-24 Liberator,200-27,NebulaDrive E5,1
+Northrop F-5 Tiger II,Mk.I-92,BetaBoost G4,1
+Boeing 727-200,LR-68,Falcon FX-370,4
+AeroZen 2021,A-26,Continental IO‑320‑E,2
+Henschel Hs 129,LR-54,NimbusCore Beta,4
+AeroSpear 5,100-74,Rolls‑Royce Tyne,3
+Zenith Aero,100-4,NimbusCore Beta,3
+AuroraPeak 7,A-9,Zenith ZN-960,2
+Aurora Eclipse,Mk.I-35,Trent 800,3
+MiG-23,Max-26,Aether AE-470,1
+Eclipse 500,B-11,CFM RISE‑4,1
+AeroNova X1,200-28,Lycoming O‑303,4
+AeroStrider 220,B-36,Continental TSIO‑520,4
+Titanic Talon,B-4,Pratt & Whitney PW1500G,3
+Boeing 747,ER-51,EpsilonCore J4,4
+AuroraCrest 6,B-67,Jupiter JX-580,3
+AeroSolaris 55,Max-92,Rolls-Royce UltraFan-2000,4
+F-57 Quasar,Neo-96,Strato ST-750,1
+Sikorsky S-71 Blackbird,B-56,GE9X-117B-2,1
+Raven R-12,B-48,Eon EH-160,3
+Stratos Aero 710,Neo-11,Honeywell HTF7000-3,4
+Convair B-58 Hustler,Mk.I-89,BetaBoost G1,4
+Thunderbolt 7,A-44,AeroTech V6-600,2
+Nimbus Dawn,Mk.I-76,Glide GM-660,1
+FalconSkies 88,Neo-37,Aether AE-470,4
+Douglas DC-3 Sky Bulldog,LR-67,AuroraDrive 301,2
+Antonov An-70,200-37,CFM56‑5A,2
+Cirrus SR22,Mk.I-28,Solaris SX-480,1
+Glide Ranger,B-90,Lycoming IO-360,2
+Strato Aero 71,ER-52,HelixBoost 240,2
+Pinnacle Aero Pinnacle-3,100-27,ZenithPower B3,3
+Raptor X1,B-69,Raptor RT-620,1
+Boeing 777-300ER,Max-65,Pratt & Whitney R-987,3
+Solaris Aero 360,Mk.I-98,AeroTech V2-200,4
+Glimmer Star,B-3,PearlFusion X2,4
+Aurora Skyhawk,B-19,Strato ST-580,4
+Arcadia,ER-80,Pratt & Whitney JT8D‑200,4
+Stroukoff S-3,100-57,PW1000G‑C,4
+Eclipse Guardian,200-17,StratoEngine C4,2
+AeroSpace Voyager,Mk.I-76,Rolls‑Royce RB.211-535,4
+Aether Aero 880,ER-32,Aether AE-880,2
+Cyclone Mk II,200-96,Quantum Q-1500,2
+Condor C-210,A-12,NimbusCore Beta,3
+Helios Aero 330,100-67,Airbus EB200,1
+Spitfire Mk IX,200-53,Lycoming IO-360,1
+Vigilant Apex,Neo-86,Zenith ZN-200,4
+Boeing 737 MAX 10,200-84,CFM56‑B1,4
+Rockwell Commander 310,B-55,EpsilonCore J3,2
+Skyward Orion,100-84,LEAP‑1C,1
+MiG-23,Max-26,AeroTech V6-600,1
+Celestial 12,ER-42,Lycoming IO-360,1
+Aurora Eclipse,A-81,GE95‑3,3
+Tu-95 Bear,100-76,AeroTech V6-600,2
+Titanium Tempest,100-51,AlphaCore F2,4
+Eclipse V,Max-92,Upsilon UV-480,1
+Aurora Sky,A-63,Orion OX-910,2
+AstraJet Astra-7,Neo-66,Rolls-Royce Eagle V,1
+VortexPilot 4,ER-42,PW4056‑2,1
+Specter Classic,Mk.I-9,ZenithPower B5,3
+Aurora Mist,B-21,NebulaDrive E6,2
+de Havilland DH.60 Moth,Max-17,Trent 800‑B4,2
+Electra E-9,Max-62,Pratt & Whitney JT8D‑200,4
+AeroRanger 88,B-2,PearlFusion X8,2
+Bombardier CRJ700,100-84,GE95-1B,4
+Skyward Tempest,ER-19,BetaBoost G6,1
+Lockheed Martin C-130J,200-27,CFM56-7B,1
+AeroSpectra 3,Max-72,Eclipse EX-490,2
+Falcon 900E,A-66,GE9X-117B,1
+Valkyrie Vengeance,ER-76,GE9X-117B-12,3
+CycloneEdge 8,ER-64,Pioneer PR-880,4
+Embraer ERJ-190,200-75,Kite KS-450,1
+Douglas DC-8,100-41,LEAP‑1D,2
+Beechcraft Bonanza G36,Mk.I-60,GE408,1
+Aurorae 300,Max-57,Rolls-Royce RB.211-524,1
+Cessna Citation X+,Neo-57,Raptor RT-450,2
+Panavia Tornado,LR-91,Rotax 912 iS-155,1
+SkylineRacer 9,100-72,CFM LEAP-1B,1
+Mirage Veil,Mk.I-38,Upsilon UV-480,4
+Kestrel Aero 15,200-79,Yield Y-610,1
+F-81 Sentinel II,A-23,Vivid V-420,4
+Eclipse Aero Eclipse-5,Max-87,TRB1000,2
+F-44 Comet,Mk.I-5,Lycoming IO-540,3
+MiG-35 Fulcrum,LR-55,Vivid V-750,4
+SkyRider-2,ER-7,TitanForce 405,1
+Cessna 208 Grand Caravan,LR-89,TRB1000,3
+Miles Magister,LR-69,Safran Silvercrest-2,3
+Bell 429 GlobalRanger,200-90,Nimbus NX-150,2
+Diamond DA40 Diamond Star,ER-44,GE90-115B,1
+P-51 Mustang,LR-95,Thielert PD 300,1
+AeroVista 2023,ER-5,Titanium Ti-950,2
+Saab J 29 Tunnan,Neo-80,Vivid V-850,2
+Valkyrie Horizon,A-47,DeltaDrive I6,2
+Quasar Aero 520,Max-32,Rotax 915 iS-250,4
+Eurofighter EFA,Neo-91,SkyPower 400,3
+Lockheed L-188 Electra,Max-72,GE9X-117B-3,4
+Zivko Edge 540,A-57,Solaris SX-480,4
+Antonov An-28,Mk.I-39,AlphaCore F5,3
+Talon 300,B-95,Raptor RT-730,4
+Cyclone Sky,Max-76,Rolls-Royce Trent 500,2
+Stormchaser ST-21,Max-26,Trent 7000‑C3,1
+AuroraPeak 7,LR-11,PT6D-31C,2
+Eurofighter Typhoon,200-96,StratoEngine C6,2
+BAC Strikmaster,200-68,CFM56-7B,4
+Solaris Eclipse,B-22,Solaris SX-480,2
+F-27 Lancer,Neo-46,Airbus A320neo CFM LEAP-1A,1
+AeroEthereal,100-49,PW1500G‑F,4
+Shenyang J-11,LR-44,Quartz Q-250,1
+NebulaVoyager 2,ER-13,CFM56-7B,3
+Pietenpol Air Defender,B-46,HelixBoost 210,1
+Raptor Zephyr,Mk.I-24,Zenith ZN-330,4
+Douglas C-17 Globemaster III,Neo-43,Airbus A350 PW4000,1
+MiG-27 Flogger,ER-76,VanguardX 102,1
+Airbus H125,ER-58,BetaBoost G2,2
+Vanguard Aero 690,Mk.I-26,GE T700‑AD‑800,2
+AuroraFusion 5,Neo-63,GE414,4
+Thunderbolt X,B-21,PearlFusion X3,2
+ThunderWave 6,LR-79,Honeywell CEO-350,3
+Airbus Beluga,Neo-96,Zenith ZN-200,4
+Dassault Rafale,Mk.I-99,NimbusCore Delta,3
+Tempest 10,Max-92,Pratt & Whitney PW1500GX,4
+Handley Page Halifax,Mk.I-1,PulseJet D3,3
+Guardian-6,LR-84,PT6D-21B,3
+Junkers Ju 87 Stuka,200-2,Rolls-Royce Trent 750,1
+Stratos Aero 240,Neo-46,GE90‑115B‑B,2
+Messerschmitt Me 410,Mk.I-62,GE9X‑4,1
+Yakovlev Yak-40,Max-13,Lycoming O-320,4
+Skyward Aero 450,LR-83,Thielert PD 300,2
+Antonov An-74,Mk.I-3,Lumen LS-880,3
+Silver Storm,A-40,Raptor RT-620,1
+Fokker 70,Mk.I-92,Vortex V-1200,2
+Pinnacle X,Neo-46,CF6‑80E1,1
+CyclonePrime 8,B-81,EclipseCore A5,1
+Douglas DC-8,A-11,AuroraDrive 302,2
+Supermarine Seafire,Neo-40,Javelin J-840,2
+Cessna Citation Excel,200-83,AlphaCore F2,4
+Piper Seneca V,100-57,Iris IR-990,4
+B-66 Destroyer,LR-60,Continental IO‑320,1
+Bell X-1,Max-40,Jupiter JX-580,4
+Thalassa Aero 380,200-8,PW4070,2
+Aurora Starfighter,B-96,Trent 800,4
+Aurorae 5,Mk.I-56,GE404,3
+Orion-1,LR-11,Nimbus NX-470,4
+AuroraVoyager,200-91,AeroTech V7-700,2
+KAI KF-21 Boramae,Neo-66,MTU V2519,1
+Valkyrie Dawn,B-88,NimbusCore Gamma,1
+AeroNova 200,100-82,StratoEngine C2,3
+Vickers Wellington,Neo-68,PearlFusion X8,3
+Piper PA-18 Super Cub,A-12,Xenon X-410,3
+Condor C-5,Neo-78,CFM LEAP-2,1
+Titan Aero A1,Neo-10,HelixBoost 250,4
+AeroBlade 14,Mk.I-74,Javelin J-130,4
+ZephyrWave 7,B-77,Lycoming O-430,2
+AeroMystic,Mk.I-92,Helios HX-400,1
+A-5 Vigilante,Max-43,Quantum Q-880,1
+Storm Chaser,Neo-32,Breeze BR-150,3
+Grumman F-9F Cougar,100-87,AuroraDrive 302,2
+F-43 Phantom,100-5,Helix HX-260,3
+AeroMaverick,B-48,GammaPower H5,1
+F-111 Aardvark,100-74,Lycoming O-430,2
+Nebula Navigator,ER-40,Falcon FT-880,2
+Mitsubishi A5M,Max-1,Pratt & Whitney JT8D‑200,4
+B-52 Stratofortress,200-89,SkyPower 1000,1
+Thunderbolt II,ER-67,GammaPower H4,1
+Aurora Veil,Max-18,Xenon X-540,2
+de Havilland Vampire,200-86,Rolls-Royce Ultrafan-2500,2
+North American X-15,200-71,EpsilonCore J2,1
+Fairey Gannet,Mk.I-33,NimbusCore Epsilon,4
+SkyHawk 210,100-77,GE404,1
+SkylineRacer 9,100-72,Quantum Q-430,1
+Boeing 710,Max-64,Zenith ZN-960,1
+North American P-51D Mustang,Max-62,Continental TSIO‑540,3
+Stellar Comet,ER-67,Pratt & Whitney PT6,4
+Curtiss C-46 Commando,ER-48,Rolls-Royce Ultrafan-3000,1
+Dawnwing Aero 500,ER-74,Glide GM-560,1
+Guardian-3,B-6,NimbusCore Delta,4
+Spectra S-9,100-98,GE90-150‑2,4
+AuroraCrest 6,Mk.I-53,GE J404-190,2
+Griffin Mk2,Neo-91,PW1500G PMT-3,3
+Northrop F-5 Tiger II,B-13,Falcon FT-340,4
+Piaggio P.180 Avanti,200-77,Nimbus NX-210,3
+Perseus Wing,A-48,Raptor RT-450,1
+AeroX-101,Neo-64,Delta DX-340,3
+Pilatus PC-12,100-65,DCNS Evolution 20,4
+AeroOrbit 99,LR-14,GammaPower H5,3
+Aeroflot Sukhoi Superjet 100,B-98,MTU V2500-E2,3
+Zephyr Whisper,200-99,CFM International LEAP-1E,2
+Hawkwing Summit,LR-32,GE9X‑5,2
+Dawnbreaker D-1,ER-8,AeroTech V2-200,2
+Vickers Viscount,Max-25,TitanForce 402,4
+AeroRadiant,LR-74,DeltaDrive I2,1
+Stallion Fusion,100-79,IAE BR715,3
+Helios 20,100-62,TitanForce 402,2
+Helios 20,ER-80,Pratt & Whitney JT8D‑200,3
+Dassault Rafale,ER-76,GE9X-117B-10,1
+Cessna 182 Skylane,B-90,Pratt & Whitney F119-PW-100,2
+Phoenix Apex,Neo-2,AeroTech V3-300,2
+F-56 Orion,B-11,Gale G-330,3
+Hawkwing Aurora,Max-57,Vortex V-1200,4
+Eclipse-1,LR-61,Airbus EB200,4
+Nebula Hawk VII,Neo-85,Dynamo DM-590,1
+AeroVibe 45,B-5,Crest CB-620,4
+Vanguard Horizon X1,200-77,Rolls‑Royce Avon,3
+Condor C-210,Max-32,Dart DS-950,4
+AeroPinnacle 300,200-12,Continental IO‑520,3
+Tu-160 Blackjack,Neo-29,GE90-115B-2,1
+Mirage 2000,Neo-52,Warden W-590,3
+Grumman F8F Bearcat,Neo-29,PulseJet D6,2
+Golden Echo,Mk.I-5,QuartzEngine M2,2
+Solar Flare,200-65,GE404,3
+F-31 Valiant,200-83,VanguardX 106,1
+Il-2 Sturmovik,LR-67,Celestial C-730,1
+Vortex-12,Mk.I-53,Maverick MV-710,3
+Helix Aero Helix-6,B-78,StratoEngine C3,2
+Quicksilver Q-200,ER-6,Pratt & Whitney JT15D,2
+MiG-23,Mk.I-89,Nimbus NX-310,4
+SkyRider 120,B-85,Honeywell HTF7000-2,2
+Titanium Eagle,A-23,Lycoming O‑360,2
+F-93 Horizon III,ER-31,Nimble NF-120,2
+Lockheed Martin X-55,A-87,Warden W-480,3
+Boeing 710 (fictional),A-38,Titanium Ti-950,2
+Van's RV-6,ER-99,AE3000,3
+Piaggio Avanti,Max-93,Pratt & Whitney F119-PW-100,3
+MiG-21 Fulcrum,A-25,Lycoming O-430,3
+F-22 Raptor,A-59,GammaPower H3,4
+Vought F4U Corsair,LR-53,BetaBoost G5,1
+Eclipse Edge,Neo-57,Helix HX-110,3
+Bleriot XI,100-13,CFM56‑7D,1
+Cessna O-1 Skywaggon,Mk.I-56,AuroraDrive 304,2
+SpaceX Starship,Mk.I-86,Safran M90,1
+Stratos II,ER-48,GE T700,3
+Piper Cub,200-35,Nimbus NX-540,1
+Lockheed Martin C-130J Super Hercules,100-79,Aurora AR-320,4
+F-72 Vanguard,LR-57,Pratt & Whitney JT8D,3
+Boeing 777-300ER,Max-6,ZetaEngine K1,2
+Fleet Air Arm Swordfish,Mk.I-71,Helix HX-260,3
+AeroGlide 300,A-56,ZenithPower B1,1
+Zenith 14,100-65,NebulaDrive E1,3
+Boeing B-17 Flying Fortress,B-39,StratoEngine C3,2
+Nightingale N-1,200-37,Gale G-330,2
+Henschel Hs 129,ER-54,AeroTech V5-500,1
+Guardian-7,A-70,ZetaEngine K1,3
+NovaJet Falcon,100-53,GE90‑115B‑C,3
+Nebula Navigator,ER-48,TitanForce 404,2

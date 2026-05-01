@@ -1,0 +1,201 @@
+Name,Sponsor,ModelAircraftName,ModelVariantName,DateSet,Speed_kph,Description
+SR-0000-5839,NASA,Astraeus 5,A-36,1931-09-19,3274.94,Official speed record attempt
+SR-0001-1471,USAF,Nebula Whisper,LR-79,1987-01-10,2512.85,Official speed record attempt
+SR-0002-6201,FAI,Eagle Eye 3,LR-97,2003-01-19,3284.65,Official speed record attempt
+SR-0003-2626,RAF,Thunderbird X,B-16,1976-12-03,1165.09,Official speed record attempt
+SR-0004-8871,JAXA,Nebula Hawk VII,Neo-85,1952-07-12,2337.95,Official speed record attempt
+SR-0005-5028,USAF,AeroVista 2023,A-48,1935-04-13,2279.12,Official speed record attempt
+SR-0006-5361,FAI,A-20 Havoc,Neo-1,1947-12-07,359.01,Official speed record attempt
+SR-0007-6991,RAF,Windward PR-1,Max-3,1970-03-06,2885.85,Official speed record attempt
+SR-0008-6232,RAF,Zenith CH 701,ER-95,1962-11-29,168.83,Official speed record attempt
+SR-0009-2770,USAF,Aether Aero Aether-3,Neo-23,1926-03-19,2685.92,Official speed record attempt
+SR-0010-2277,RAF,Mitsubishi MRJ-90,200-93,2012-11-18,1688.74,Official speed record attempt
+SR-0011-8564,NASA,Embraer Legacy 500,200-38,2015-03-26,1252.81,Official speed record attempt
+SR-0012-7697,RAF,Airbus A380 Flying Fortress,100-45,2000-06-30,1396.93,Official speed record attempt
+SR-0013-8868,Boeing,BAC Strikmaster,200-22,2005-03-11,616.01,Official speed record attempt
+SR-0014-2242,Boeing,Golden Sky,Max-92,1950-10-23,742.04,Official speed record attempt
+SR-0015-3832,FAI,Celestial Voyager,Neo-66,1951-05-09,3352.82,Official speed record attempt
+SR-0016-1514,USAF,Sigma Orionis,ER-6,1964-11-23,2290.15,Official speed record attempt
+SR-0017-2534,Rolls-Royce,Cyclone Storm,Neo-83,2015-05-24,3043.91,Official speed record attempt
+SR-0018-1018,DLR,SkyRider 7X,B-13,2016-11-19,1613.32,Official speed record attempt
+SR-0019-6040,Rolls-Royce,EclipseEdge 9,100-62,1939-01-31,1332.19,Official speed record attempt
+SR-0020-9030,JAXA,Talon T-90,Neo-57,1938-09-29,2425.2,Official speed record attempt
+SR-0021-7574,DLR,Nimbus Aero 660,A-49,1943-06-08,533.22,Official speed record attempt
+SR-0022-2885,DLR,AeroGlacier 45,100-90,2020-11-12,1204.73,Official speed record attempt
+SR-0023-8645,Boeing,MiG-35,A-61,1956-09-02,949.76,Official speed record attempt
+SR-0024-8494,FAI,Cyclone-5,Max-55,1968-08-07,1808.37,Official speed record attempt
+SR-0025-3723,Rolls-Royce,Lockheed Martin F-35,ER-28,2014-11-26,2577.13,Official speed record attempt
+SR-0026-2203,JAXA,Vortex Aero 260,B-85,1986-07-08,2981.73,Official speed record attempt
+SR-0027-7422,RAF,Hyperion 5X,B-26,1984-03-17,2828.73,Official speed record attempt
+SR-0028-1216,JAXA,AuroraShift 6,200-11,1961-08-05,3049.2,Official speed record attempt
+SR-0029-6684,RAF,Volture,Mk.I-98,1957-10-14,1236.31,Official speed record attempt
+SR-0030-9735,FAI,Piper PA-42 Cheyenne,100-26,1953-11-25,205.54,Official speed record attempt
+SR-0031-8238,Boeing,Airbus A360,A-61,1982-09-07,851.39,Official speed record attempt
+SR-0032-7273,NASA,SBS Aerospace X-52 (fictional),B-65,1971-07-21,2527.89,Official speed record attempt
+SR-0033-8819,RAF,AeroAce 300,Neo-48,1940-04-04,3471.34,Official speed record attempt
+SR-0034-6417,USAF,Nova Streak,Mk.I-62,1952-05-13,3308.72,Official speed record attempt
+SR-0035-6024,NASA,Boeing 727,LR-53,1949-11-21,520.69,Official speed record attempt
+SR-0036-3453,Rolls-Royce,AeroVista 14,B-26,2010-10-19,669.05,Official speed record attempt
+SR-0037-6070,USAF,Lilium Jet,LR-53,1984-06-09,3126.27,Official speed record attempt
+SR-0038-4519,NASA,Vanguard Star,A-41,1996-03-28,1005.88,Official speed record attempt
+SR-0039-9896,USAF,Zephyr VTOL,ER-64,1966-10-08,2870.66,Official speed record attempt
+SR-0040-1094,FAI,Piper PA-42 Cheyenne,100-26,1992-02-10,617.71,Official speed record attempt
+SR-0041-3375,USAF,Vapor Zephyr,B-23,1938-05-05,1100.37,Official speed record attempt
+SR-0042-4246,FAI,Eclipse Edge,100-22,1926-09-12,1023.0,Official speed record attempt
+SR-0043-4566,FAI,AeroMystic,Mk.I-92,1985-01-16,2489.84,Official speed record attempt
+SR-0044-5522,RAF,Falcon 7X,Mk.I-62,2000-12-31,1864.9,Official speed record attempt
+SR-0045-8050,JAXA,Phoenix-2,Max-63,1980-09-18,272.66,Official speed record attempt
+SR-0046-3460,Boeing,Bede B-52 (fictional),LR-98,1970-04-05,3316.24,Official speed record attempt
+SR-0047-2178,Rolls-Royce,Yak-3,Max-44,1948-06-01,2127.78,Official speed record attempt
+SR-0048-2446,Boeing,F4U Corsair,A-40,1945-07-23,796.95,Official speed record attempt
+SR-0049-8747,FAI,Eclipse Aero 680,Neo-16,1988-09-16,464.43,Official speed record attempt
+SR-0050-8721,USAF,Glimmer Star,100-76,2011-01-18,182.04,Official speed record attempt
+SR-0051-1476,DLR,Boeing 777-200ER,Mk.I-86,1974-11-22,2112.27,Official speed record attempt
+SR-0052-5708,DLR,Mirage Horizon,ER-12,1963-08-31,965.35,Official speed record attempt
+SR-0053-7115,Boeing,B-1A,Neo-68,1968-11-01,3002.12,Official speed record attempt
+SR-0054-1435,RAF,AeroAegis 9,200-2,1920-05-04,2812.45,Official speed record attempt
+SR-0055-9941,Boeing,MiG-23,200-3,1975-04-04,944.12,Official speed record attempt
+SR-0056-3347,DLR,Cloudmaster 55,100-76,1934-11-01,1827.98,Official speed record attempt
+SR-0057-8756,Rolls-Royce,Avid Flyer,Max-9,1993-04-13,2513.92,Official speed record attempt
+SR-0058-7511,NASA,Mitsubishi SpaceJet,Mk.I-1,2005-03-04,3011.24,Official speed record attempt
+SR-0059-6481,JAXA,Embraer ERJ-190,Max-5,2000-07-25,2227.79,Official speed record attempt
+SR-0060-5591,USAF,Rohrbach Riesling,ER-5,2005-12-23,2099.35,Official speed record attempt
+SR-0061-4772,Boeing,F-47 Lightning,A-61,1969-03-02,3305.54,Official speed record attempt
+SR-0062-5642,DLR,Thunderbolt 7X,Neo-46,1939-03-08,713.28,Official speed record attempt
+SR-0063-8218,DLR,PulseJet 300,A-18,1921-12-30,1258.59,Official speed record attempt
+SR-0064-9818,RAF,Su-24M Fencer-K,Neo-91,2010-01-27,2831.91,Official speed record attempt
+SR-0065-5546,RAF,F-86 Cyclone IV,LR-3,1962-02-19,361.1,Official speed record attempt
+SR-0066-2121,DLR,McDonnell Douglas F/A-18,ER-67,1942-03-17,513.95,Official speed record attempt
+SR-0067-1150,Rolls-Royce,Skyward Aero 450,LR-93,2019-08-18,3089.53,Official speed record attempt
+SR-0068-9573,USAF,Douglas DC-3 Sky Bulldog,LR-78,1920-05-31,1717.85,Official speed record attempt
+SR-0069-6492,JAXA,Lockheed SR-72,Neo-30,1975-04-23,1089.6,Official speed record attempt
+SR-0070-8990,RAF,Sukhoi Su-57,Neo-96,1983-10-08,2045.96,Official speed record attempt
+SR-0071-1648,DLR,Rockwell Commander 310,Max-1,1946-05-14,3161.22,Official speed record attempt
+SR-0072-5263,RAF,AeroPinnacle 112,B-19,2005-01-02,3025.97,Official speed record attempt
+SR-0073-3479,Rolls-Royce,Chance Vought F4U-1A,100-14,2010-09-10,2157.36,Official speed record attempt
+SR-0074-4351,FAI,Zenithal 2,Mk.I-62,1939-12-11,2874.36,Official speed record attempt
+SR-0075-5767,Boeing,Siren Jet,A-50,2001-03-31,984.5,Official speed record attempt
+SR-0076-4866,FAI,Phoenix-2,Neo-2,1969-09-17,552.88,Official speed record attempt
+SR-0077-1373,Rolls-Royce,AeroPioneer 19,ER-62,1959-12-17,1433.83,Official speed record attempt
+SR-0078-7887,NASA,Zephyr VTOL,200-96,1957-05-29,2190.37,Official speed record attempt
+SR-0079-1867,Boeing,Maverick Raptor,Max-52,1932-01-19,340.68,Official speed record attempt
+SR-0080-7312,DLR,AuroraPeak 7,LR-11,1943-05-12,1413.77,Official speed record attempt
+SR-0081-8716,Boeing,SkyRider 5,Neo-99,1947-03-15,2865.21,Official speed record attempt
+SR-0082-9196,DLR,Titanic Talon,200-91,2017-10-03,1234.89,Official speed record attempt
+SR-0083-2996,NASA,Eclipse Aero 270,Mk.I-51,1940-07-04,656.62,Official speed record attempt
+SR-0084-6378,RAF,CycloneEdge 8,ER-72,1950-04-11,1538.05,Official speed record attempt
+SR-0085-8515,DLR,C-17 Globemaster III,Max-92,1947-07-19,363.19,Official speed record attempt
+SR-0086-1539,DLR,Zephyr Aero 810,A-87,1936-10-18,1325.05,Official speed record attempt
+SR-0087-9272,RAF,Skyward Innovations SkyWard-3,A-66,2018-03-14,3461.12,Official speed record attempt
+SR-0088-7508,FAI,Helios Guard,200-38,1926-07-21,3154.11,Official speed record attempt
+SR-0089-5267,DLR,Cessna 180 Skywagon,Max-63,2000-10-05,774.44,Official speed record attempt
+SR-0090-2922,NASA,Aurorae 300,Max-57,1955-03-18,1512.12,Official speed record attempt
+SR-0091-8940,FAI,Zenith Skyfire,Neo-13,1931-12-18,570.44,Official speed record attempt
+SR-0092-6945,NASA,Grumman TBM Avenger,B-80,2017-02-04,752.11,Official speed record attempt
+SR-0093-2001,NASA,Nebula Echo II,Mk.I-56,1969-07-01,2055.16,Official speed record attempt
+SR-0094-3322,RAF,Sikorsky UH-60 Black Hawk,Mk.I-4,2019-04-07,3446.03,Official speed record attempt
+SR-0095-2212,DLR,Specter Ghost,LR-24,2010-03-12,2989.73,Official speed record attempt
+SR-0096-5470,Rolls-Royce,Mercury M-8,LR-33,1996-06-18,683.05,Official speed record attempt
+SR-0097-4065,JAXA,Arcadia 68 Aero 540,B-22,2007-01-10,2484.95,Official speed record attempt
+SR-0098-2951,NASA,MiG-35,100-73,1962-08-26,580.33,Official speed record attempt
+SR-0099-4046,FAI,Astra Frontier,200-53,1968-06-02,2253.59,Official speed record attempt
+SR-0100-2428,DLR,Astra Flare,B-24,1945-03-20,382.8,Official speed record attempt
+SR-0101-9209,USAF,Stardust Voyager,B-43,1921-07-22,2726.78,Official speed record attempt
+SR-0102-6996,RAF,MiG-25 Foxbat,Mk.I-68,1998-04-22,851.62,Official speed record attempt
+SR-0103-1118,FAI,AeroSprint 333,Mk.I-1,1972-12-31,1443.22,Official speed record attempt
+SR-0104-5540,DLR,Learjet 45,Mk.I-80,2009-08-06,332.36,Official speed record attempt
+SR-0105-1829,JAXA,Artemis A-88,Neo-36,1920-09-07,2548.67,Official speed record attempt
+SR-0106-4697,RAF,Cyclone-3,200-76,1966-08-17,199.71,Official speed record attempt
+SR-0107-8015,RAF,EclipseNova 6,ER-95,1947-12-04,2295.31,Official speed record attempt
+SR-0108-5037,DLR,Cyclone 15,ER-76,2012-02-23,1095.48,Official speed record attempt
+SR-0109-7976,NASA,Strawberry Aviation SkyRider,100-14,1939-07-07,1605.31,Official speed record attempt
+SR-0110-1687,FAI,P-8 Poseidon,200-76,2006-11-23,1765.32,Official speed record attempt
+SR-0111-5093,Boeing,Playboy Charger,ER-86,1992-11-11,3208.59,Official speed record attempt
+SR-0112-7141,Rolls-Royce,Vanguard Aero Vanguard-2,A-48,1941-04-27,1674.52,Official speed record attempt
+SR-0113-4446,NASA,Phantom Falcon,Neo-61,1939-01-31,2450.51,Official speed record attempt
+SR-0114-1034,JAXA,Talon-9,200-39,1952-04-03,593.14,Official speed record attempt
+SR-0115-5426,FAI,Aurora Explorer,Max-25,1956-09-23,1257.88,Official speed record attempt
+SR-0116-2615,DLR,Cyclone-9,200-92,1926-12-07,2324.54,Official speed record attempt
+SR-0117-6938,JAXA,Mitsubishi T-2,Max-17,1933-08-12,2657.41,Official speed record attempt
+SR-0118-3881,RAF,Tupolev Tu-144,A-9,1944-01-13,695.96,Official speed record attempt
+SR-0119-8177,Rolls-Royce,Eclipse V,LR-93,1964-11-05,1870.69,Official speed record attempt
+SR-0120-3875,USAF,Mach-X 9,Mk.I-98,1963-05-06,1417.23,Official speed record attempt
+SR-0121-3487,Boeing,Cosmos-5,Neo-93,1929-11-12,508.62,Official speed record attempt
+SR-0122-1179,JAXA,F-34 Reaper,100-33,2015-10-10,1808.52,Official speed record attempt
+SR-0123-7751,Boeing,AgustaWestland AW101,100-76,1966-01-25,969.86,Official speed record attempt
+SR-0124-7663,Boeing,AeroSculpt,100-57,1991-11-29,636.28,Official speed record attempt
+SR-0125-6187,Rolls-Royce,F-96 Cyclone V,100-18,1920-03-11,1212.6,Official speed record attempt
+SR-0126-9815,Rolls-Royce,F-67 Aurora III,Max-40,1946-03-27,1620.09,Official speed record attempt
+SR-0127-5375,Boeing,ZenithVoyager 7,B-13,2006-05-20,1392.83,Official speed record attempt
+SR-0128-9596,FAI,Convair B-58 Hustler,A-57,1978-11-25,2230.17,Official speed record attempt
+SR-0129-6472,Rolls-Royce,AeroLuxe 500,ER-66,1978-04-01,3268.1,Official speed record attempt
+SR-0130-5071,JAXA,Titanium Hawk,LR-35,1953-05-22,1794.27,Official speed record attempt
+SR-0131-4806,FAI,Thunderbolt 7,200-71,2014-07-25,2849.76,Official speed record attempt
+SR-0132-9809,NASA,Tempest Whisper,ER-66,1936-10-07,417.78,Official speed record attempt
+SR-0133-1690,Boeing,Cosmic Crusader,B-69,1952-10-05,2101.22,Official speed record attempt
+SR-0134-2811,DLR,Fokker D.VII,B-71,1954-07-02,1937.2,Official speed record attempt
+SR-0135-5346,NASA,SAAB 340,200-70,1992-04-19,2602.46,Official speed record attempt
+SR-0136-8683,Boeing,XF-84 Thunderjet,LR-11,1967-06-26,909.1,Official speed record attempt
+SR-0137-3708,Rolls-Royce,Helix Aero Helix-2,Neo-15,1934-05-26,2118.29,Official speed record attempt
+SR-0138-5238,NASA,L-1011 Tristar,200-68,1990-04-18,3262.37,Official speed record attempt
+SR-0139-6446,NASA,Mikoyan-Gurevich MiG-23,Max-2,1951-01-02,1313.67,Official speed record attempt
+SR-0140-4252,Boeing,Celestial Aero Celestial-7,B-44,2012-03-05,223.48,Official speed record attempt
+SR-0141-8564,NASA,Northrop Grumman X-47B,Neo-3,1948-07-31,1943.9,Official speed record attempt
+SR-0142-9971,Boeing,ZenithForge 6,200-10,1929-10-11,809.27,Official speed record attempt
+SR-0143-8936,RAF,Zenith Shield,LR-93,1993-01-15,3483.5,Official speed record attempt
+SR-0144-9673,RAF,Fw 190 Würger,B-5,1947-07-21,1494.36,Official speed record attempt
+SR-0145-4133,DLR,AuroraFlare 6,LR-11,1950-09-21,1155.63,Official speed record attempt
+SR-0146-2725,USAF,Eagle's Wing,B-98,1928-11-14,3346.2,Official speed record attempt
+SR-0147-4731,RAF,Cosmos-2,B-89,1989-06-22,291.16,Official speed record attempt
+SR-0148-2069,NASA,Peregrine 6,LR-32,1980-01-03,452.47,Official speed record attempt
+SR-0149-2675,NASA,AuroraVoyager,200-37,1995-11-28,2341.61,Official speed record attempt
+SR-0150-1923,DLR,AeroFusion Fusion-X,100-95,2019-12-24,1420.74,Official speed record attempt
+SR-0151-2039,DLR,AeroTrail 39,ER-66,1981-07-15,329.92,Official speed record attempt
+SR-0152-4357,DLR,Radiant Rocket,Max-6,1928-07-05,2613.19,Official speed record attempt
+SR-0153-8955,USAF,Lycanthrope,Mk.I-60,1930-01-10,300.95,Official speed record attempt
+SR-0154-5982,JAXA,F-84 Nebula III,Max-21,1948-05-27,1884.99,Official speed record attempt
+SR-0155-1727,FAI,Astra Flare,Neo-83,1964-05-28,2313.53,Official speed record attempt
+SR-0156-9812,USAF,Boeing 737 MAX,Neo-96,1922-11-13,855.8,Official speed record attempt
+SR-0157-8290,JAXA,Crimson Valkyrie,200-32,1922-03-01,710.1,Official speed record attempt
+SR-0158-4023,NASA,Avro Shackleton,LR-17,1960-04-28,2323.84,Official speed record attempt
+SR-0159-5898,USAF,De Havilland Vampire,B-80,2016-04-28,3136.35,Official speed record attempt
+SR-0160-8787,NASA,Mitsubishi A6M Zero,ER-1,1933-07-26,970.57,Official speed record attempt
+SR-0161-8037,RAF,AeroVista 2023,ER-62,1956-09-10,1015.21,Official speed record attempt
+SR-0162-2989,JAXA,EclipseNova 6,ER-95,1970-03-10,1570.91,Official speed record attempt
+SR-0163-2833,FAI,de Havilland DH.60 Moth,Mk.I-4,1926-08-27,2725.04,Official speed record attempt
+SR-0164-4253,Boeing,Everstorm 57,A-52,1986-08-23,497.19,Official speed record attempt
+SR-0165-1984,JAXA,ThunderWave 6,100-95,1949-11-13,2095.52,Official speed record attempt
+SR-0166-9271,FAI,Phoenix Apex,Neo-47,1951-10-01,601.65,Official speed record attempt
+SR-0167-6394,DLR,Celestial Atlas,A-11,1922-07-16,544.69,Official speed record attempt
+SR-0168-7456,RAF,Stellar Comet,ER-67,1934-04-26,630.32,Official speed record attempt
+SR-0169-6178,USAF,Sukhoi Su-27 Flanker,Neo-29,2010-04-19,211.04,Official speed record attempt
+SR-0170-1568,USAF,Rogue Mantis,A-25,1953-09-18,1055.66,Official speed record attempt
+SR-0171-4779,USAF,Celestial Hawk,Mk.I-68,1974-08-03,753.28,Official speed record attempt
+SR-0172-3666,USAF,Lumen Arc,Mk.I-67,2005-10-27,538.26,Official speed record attempt
+SR-0173-1011,DLR,Chronos Century,100-21,1968-07-17,870.27,Official speed record attempt
+SR-0174-8697,Rolls-Royce,Cessna 208 Grand Caravan,B-21,1929-08-10,3006.1,Official speed record attempt
+SR-0175-3057,NASA,Nimbus Prime,200-39,1973-12-02,1101.25,Official speed record attempt
+SR-0176-4859,DLR,Polikarpov I-16,B-31,1994-01-09,3333.42,Official speed record attempt
+SR-0177-3676,NASA,ATR 72,B-27,1955-12-12,1685.51,Official speed record attempt
+SR-0178-2664,Rolls-Royce,AeroMaster AM-9,ER-52,1964-03-04,2473.54,Official speed record attempt
+SR-0179-2574,RAF,Bensen B-6,Mk.I-24,1946-07-10,483.92,Official speed record attempt
+SR-0180-5419,RAF,Eclipse Aero 270,Max-59,1974-07-18,1394.34,Official speed record attempt
+SR-0181-1353,RAF,Tupolev Tu-154,LR-28,1980-09-06,2360.34,Official speed record attempt
+SR-0182-4594,RAF,AeroAurora 12,100-42,1942-03-08,1814.12,Official speed record attempt
+SR-0183-2082,FAI,AugustaWestland AW139,B-56,2006-10-29,1213.6,Official speed record attempt
+SR-0184-5042,FAI,Consolidated PBY-5 Cataline,ER-74,1932-10-29,3003.32,Official speed record attempt
+SR-0185-7277,FAI,Quasar Jet,ER-62,1955-10-23,1851.64,Official speed record attempt
+SR-0186-8905,JAXA,Il-86 Candidate,Neo-1,1965-03-28,1911.03,Official speed record attempt
+SR-0187-9697,Rolls-Royce,Saab J 29 Tunnan,100-87,1923-08-02,3128.82,Official speed record attempt
+SR-0188-5022,DLR,Nova Aero 770,Max-21,1932-05-22,1097.68,Official speed record attempt
+SR-0189-8440,FAI,Falcon V,B-34,2003-11-24,2375.67,Official speed record attempt
+SR-0190-1656,NASA,Mirage Aero 320,LR-10,2003-07-29,2575.82,Official speed record attempt
+SR-0191-9958,Boeing,Cessna 208 Grand Caravan,Max-39,1982-07-19,1747.28,Official speed record attempt
+SR-0192-6674,NASA,F-35 Lightning II,200-38,1954-01-25,1399.9,Official speed record attempt
+SR-0193-6016,Rolls-Royce,Thalassa Aero 610,LR-95,1996-07-16,3375.11,Official speed record attempt
+SR-0194-4212,FAI,Apex Arrow,100-96,1987-12-12,2564.79,Official speed record attempt
+SR-0195-3860,JAXA,Piaggio P.180 Avanti,200-77,1920-02-04,1575.94,Official speed record attempt
+SR-0196-8000,JAXA,Hawker 800XP,100-30,1933-02-04,2314.53,Official speed record attempt
+SR-0197-9580,Boeing,Eclipse Phoenix,Neo-95,2000-07-26,2291.05,Official speed record attempt
+SR-0198-2078,RAF,Eclipse 300,Max-88,1948-06-07,2420.53,Official speed record attempt
+SR-0199-8818,RAF,Mikoyan-Gurevich MiG-29K,200-22,1936-08-19,3323.51,Official speed record attempt

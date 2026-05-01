@@ -1,0 +1,501 @@
+ModelName,Thrust,CylinderCount,CylinderConfig,PropSize
+GE90-115B,1025,0,Ultra‑High Bypass,3.5
+CFM56-7B,1150,0,High Bypass,2.8
+PW4056,1200,0,High Bypass,3.0
+Trent XWB,80000,0,Ultra‑High Bypass,2.7
+LEAP‑1A,30000,0,High Bypass,2.5
+LEAP‑1B,30000,0,High Bypass,2.5
+LEAP‑1C,30000,0,High Bypass,2.5
+IAE V2500,25000,0,High Bypass,2.4
+PW1000G,5000,0,Geared Turbofan,1.8
+AE2100,30000,0,High Bypass,2.6
+CF6‑80E1,60000,0,High Bypass,3.2
+Pratt & Whitney F135,45000,0,Afterburning Turbofan,2.9
+PW4084,27700,0,High Bypass,2.8
+GE95,115000,0,Ultra‑High Bypass,3.6
+CFM RISE,35000,0,Ultra‑High Bypass,2.7
+Rolls‑Royce RTM321,20000,0,High Bypass,2.2
+GE408,8000,0,Turbofan,1.9
+TRB1000,12000,0,Low‑Bypass,1.5
+Lycoming O‑320,150,4,Flat‑Four,0.9
+Lycoming O‑360,200,4,Flat‑Four,1.0
+Continental IO‑520,260,6,Flat‑Six,1.1
+Rolls‑Royce Merlin,1000,12,V‑12,2.0
+Pratt & Whitney R‑1830,850,14,Radial‑14,1.8
+GE T700,1800,0,Turboshaft,2.3
+GE T58,50.0,8,Turbofan,2.5
+Pratt & Whitney JT8D,17000,0,Low‑Bypass,2.0
+CFM56‑5A,27000,0,High Bypass,2.6
+GE CF34,7200,0,Regional Turbofan,1.7
+PW1200G,6200,0,Geared Turbofan,1.9
+AE3000,11000,0,High Bypass,2.4
+GE9X,115000,0,Ultra‑High Bypass,3.4
+Trent 7000,35000,0,Ultra‑High Bypass,2.9
+Pratt & Whitney PW1500G,7200,0,Geared Turbofan,2.1
+Rolls‑Royce RB.211-535,30000,0,Ultra‑High Bypass,2.8
+GE CF6‑80C2,60000,0,High Bypass,3.3
+DCNS Evolution 20,20000,0,High Bypass,2.5
+Pratt & Whitney F100,29000,0,Low‑Bypass,2.2
+GE95-2B,115000,0,Ultra‑High Bypass,3.7
+CFM RISE‑2,38000,0,Ultra‑High Bypass,2.8
+PW4070,27700,0,High Bypass,2.9
+Trent 1000,35000,0,Ultra‑High Bypass,2.9
+GE90-130,130000,0,Ultra‑High Bypass,3.8
+Lycoming O‑540,300,6,Flat‑Six,1.2
+Continental TSIO‑520,275,6,Flat‑Six,1.3
+Pratt & Whitney PT6,620,0,Turboprop,1.5
+GE H80,400,0,Turbojet,0.9
+GE90-150,150000,0,Ultra‑High Bypass,3.9
+CFM56‑7C,28000,0,High Bypass,2.7
+PW127,5300,0,Turbofan,1.6
+Trent 900,35000,0,Ultra‑High Bypass,3.0
+GE414,2200,0,Regional Turbofan,1.8
+Lycoming O‑235,85,4,Flat‑Four,0.8
+Continental IO‑320,220,4,Flat‑Four,0.9
+Pratt & Whitney JT15D,3200,0,Low‑Bypass,1.7
+GE95-1B,115000,0,Ultra‑High Bypass,3.5
+Rolls‑Royce Spey,17000,0,Low‑Bypass,2.1
+PW1500G‑A,7200,0,Geared Turbofan,2.0
+GE9X‑2,118000,0,Ultra‑High Bypass,3.9
+Trent 7000‑A2,36000,0,Ultra‑High Bypass,3.0
+PW1000G‑E,6200,0,Geared Turbofan,1.9
+CFM RISE‑3,40000,0,Ultra‑High Bypass,2.9
+Lycoming O‑340,180,4,Flat‑Four,0.9
+Continental IO‑360,180,4,Flat‑Four,0.9
+Rolls‑Royce Tyne,15000,0,Low‑Bypass,2.0
+GE T700‑AD‑800,2100,0,Turboshaft,2.2
+Pratt & Whitney R‑985,225,9,Radial‑9,0.7
+GE404,4500,0,Regional Turbofan,2.0
+PW127G,5300,0,Turbofan,1.8
+GE90-115B-2,115000,0,Ultra‑High Bypass,3.6
+CFM56‑5B,28000,0,High Bypass,2.7
+PW4057,28000,0,High Bypass,2.8
+Trent 800,35000,0,Ultra‑High Bypass,2.9
+LEAP‑1D,31000,0,High Bypass,2.5
+IAE BR715,27000,0,High Bypass,2.6
+GE9X‑3,119000,0,Ultra‑High Bypass,4.0
+PW1500G‑B,7300,0,Geared Turbofan,2.1
+Rolls‑Royce AE2100D,30000,0,High Bypass,2.7
+GE CF6‑80C2F,61000,0,High Bypass,3.3
+CFM56‑5C,26000,0,High Bypass,2.5
+PW4056‑2,12500,0,High Bypass,2.9
+Trent 700‑1,32000,0,Ultra‑High Bypass,2.8
+Lycoming O‑303,110,4,Flat‑Four,0.9
+Continental IO‑340,150,4,Flat‑Four,0.9
+Pratt & Whitney JT8D‑200,18000,0,Low‑Bypass,2.0
+GE90-130‑2,132000,0,Ultra‑High Bypass,3.9
+PW127PW‑A,5400,0,Turbofan,1.7
+Trent 800‑A2,35500,0,Ultra‑High Bypass,3.0
+GE T700‑AD‑400,2150,0,Turboshaft,2.3
+PW1000G‑C,6100,0,Geared Turbofan,1.8
+CFM RISE‑4,42000,0,Ultra‑High Bypass,3.0
+Lycoming O‑290,115,4,Flat‑Four,0.8
+Continental TSIO‑540,310,6,Flat‑Six,1.3
+Pratt & Whitney PT6A‑67F,620,0,Turboprop,1.5
+GE90-150‑2,152000,0,Ultra‑High Bypass,4.0
+PW4000‑94,27700,0,High Bypass,2.8
+Trent 900‑B4,36000,0,Ultra‑High Bypass,3.1
+GE95‑3,120000,0,Ultra‑High Bypass,4.1
+CFM56‑7D,30000,0,High Bypass,2.7
+PW1500G‑C,7400,0,Geared Turbofan,2.1
+GE9X‑4,121000,0,Ultra‑High Bypass,4.1
+Trent 7000‑B2,38000,0,Ultra‑High Bypass,3.2
+PW127G‑B,5500,0,Turbofan,1.9
+Rolls‑Royce Merlin‑1650,1000,12,V‑12,2.1
+GE T58‑001,1800,0,Turboprop,1.6
+PRM100,2500,0,Turbofan,2.0
+PW1000G‑D,6300,0,Geared Turbofan,1.9
+CFM56‑B6,30000,0,High Bypass,2.7
+Trent 800‑B4,36000,0,Ultra‑High Bypass,3.1
+GE90-115B‑A,1025,0,Ultra‑High Bypass,3.5
+PW1500G‑D,7500,0,Geared Turbofan,2.2
+CFM RISE‑5,44000,0,Ultra‑High Bypass,3.1
+Lycoming O‑350,150,4,Flat‑Four,0.9
+Continental IO‑320‑E,230,4,Flat‑Four,0.9
+Pratt & Whitney F135‑A,45000,0,Afterburning Turbofan,2.9
+GE9X‑5,124000,0,Ultra‑High Bypass,4.2
+Trent 7000‑C3,39000,0,Ultra‑High Bypass,3.3
+PW1500G‑E,7700,0,Geared Turbofan,2.3
+CFM56‑B1,27500,0,High Bypass,2.6
+GE90‑115B‑B,1010,0,Ultra‑High Bypass,3.4
+PW4056‑3,28500,0,High Bypass,2.8
+Rolls‑Royce Avon,16000,0,Low‑Bypass,2.1
+GE90‑115B‑C,1020,0,Ultra‑High Bypass,3.5
+PW1500G‑F,7900,0,Geared Turbofan,2.4
+LEAP‑1E,33000,0,High Bypass,2.5
+Trent 800‑C5,37000,0,Ultra‑High Bypass,3.2
+Aegean AE-210,185,0,high-bypass,2.8
+SkyPower SP-3000,2100,0,ultra-high-bypass,3.0
+Nimbus NX-150,155,0,low-bypass,2.5
+Helios HX-400,420,0,geared turbofan,3.2
+Vortex V-1200,130,0,turbojet,2.3
+Falcon FT-850,850,0,high-bypass,2.9
+Zephyr ZP-250,250,0,low-bypass,2.6
+Orion OX-700,700,0,geared turbofan,3.1
+Mirage MX-180,180,0,high-bypass,2.7
+Thunderbolt TB-500,500,0,low-bypass,2.4
+Astra AS-330,330,0,high-bypass,2.8
+Pulsar PP-900,900,0,geared turbofan,3.0
+Cobalt CB-650,650,0,ultra-high-bypass,3.2
+Lumen LS-210,210,0,high-bypass,2.9
+Eclipse EP-400,400,0,low-bypass,2.5
+Nimble NF-120,120,0,turbojet,2.2
+Quantum Q-1500,1500,0,geared turbofan,3.3
+Zenith ZN-200,200,0,high-bypass,2.7
+Strato ST-750,750,0,ultra-high-bypass,3.1
+Delta DX-340,340,0,low-bypass,2.6
+Falcon FX-190,190,0,high-bypass,2.8
+Glide GM-560,560,0,geared turbofan,3.0
+Pioneer PR-880,880,0,ultra-high-bypass,3.2
+Aurora AR-320,320,0,high-bypass,2.9
+Helix HX-110,110,0,turbojet,2.3
+Nebula NB-620,620,0,low-bypass,2.5
+Titanium Ti-950,950,0,geared turbofan,3.1
+Vortex VX-270,270,0,high-bypass,2.8
+Solaris SX-480,480,0,ultra-high-bypass,3.0
+Zenith ZT-140,140,0,high-bypass,2.7
+Apex AP-350,350,0,low-bypass,2.4
+Boreal B-210,210,0,high-bypass,2.9
+Celestial C-730,730,0,geared turbofan,3.2
+Dynamo DM-590,590,0,ultra-high-bypass,3.1
+Eon EH-160,160,0,high-bypass,2.6
+Falcon F-910,910,0,low-bypass,2.5
+Gale G-330,330,0,geared turbofan,2.8
+Helicifer H-440,440,0,ultra-high-bypass,3.3
+Icarus IC-220,220,0,high-bypass,2.7
+Jupiter JX-580,580,0,low-bypass,2.4
+Kestrel KS-190,190,0,geared turbofan,2.9
+Lynx LX-660,660,0,ultra-high-bypass,3.2
+Maverick MV-310,310,0,high-bypass,2.8
+Nimbus N-100,100,0,turbojet,2.2
+Orbit O-420,420,0,low-bypass,2.5
+Phoenix Ph-770,770,0,geared turbofan,3.0
+Quartz Q-250,250,0,high-bypass,2.7
+Raptor RT-880,880,0,ultra-high-bypass,3.1
+Stratus ST-130,130,0,high-bypass,2.6
+Tempest TM-540,540,0,low-bypass,2.4
+Upsilon UV-990,990,0,geared turbofan,3.3
+Vivid V-380,380,0,ultra-high-bypass,3.2
+Warden W-210,210,0,high-bypass,2.8
+Xenon X-620,620,0,low-bypass,2.5
+Yield Y-150,150,0,high-bypass,2.7
+Zenith ZN-330,330,0,geared turbofan,2.9
+Aether AE-470,470,0,ultra-high-bypass,3.1
+Breeze BR-880,880,0,high-bypass,2.9
+Crest CB-340,340,0,low-bypass,2.6
+Dart DS-200,200,0,geared turbofan,2.8
+Eclipse EX-620,620,0,ultra-high-bypass,3.0
+Falcon FX-240,240,0,high-bypass,2.7
+Glide GM-510,510,0,low-bypass,2.4
+Helix HX-390,390,0,geared turbofan,3.2
+Iris IR-720,720,0,ultra-high-bypass,3.1
+Javelin J-130,130,0,high-bypass,2.6
+Kite KS-450,450,0,low-bypass,2.5
+Lumen LS-880,880,0,geared turbofan,3.0
+Mirage MX-290,290,0,high-bypass,2.8
+Nimbus NX-310,310,0,ultra-high-bypass,3.2
+Orion OX-460,460,0,high-bypass,2.9
+Pioneer PR-190,190,0,low-bypass,2.4
+Quantum Q-560,560,0,geared turbofan,3.1
+Raptor RT-730,730,0,ultra-high-bypass,3.3
+Strato ST-210,210,0,high-bypass,2.7
+Tempest TM-610,610,0,low-bypass,2.5
+Upsilon UV-340,340,0,geared turbofan,2.9
+Vivid V-420,420,0,ultra-high-bypass,3.0
+Warden W-480,480,0,high-bypass,2.8
+Xenon X-750,750,0,low-bypass,2.6
+Yield Y-290,290,0,high-bypass,2.7
+Zenith ZN-560,560,0,geared turbofan,3.1
+Aether AE-880,880,0,ultra-high-bypass,3.2
+Breeze BR-150,150,0,high-bypass,2.6
+Crest CB-620,620,0,low-bypass,2.4
+Dart DS-380,380,0,geared turbofan,2.9
+Eclipse EX-490,490,0,ultra-high-bypass,3.0
+Falcon FX-370,370,0,high-bypass,2.8
+Glide GM-660,660,0,low-bypass,2.5
+Helix HX-530,530,0,geared turbofan,3.2
+Iris IR-810,810,0,ultra-high-bypass,3.1
+Javelin J-210,210,0,high-bypass,2.7
+Kite KS-990,990,0,low-bypass,2.4
+Lumen LS-340,340,0,geared turbofan,2.9
+Mirage MX-470,470,0,ultra-high-bypass,3.0
+Nimbus NX-210,210,0,high-bypass,2.6
+Orion OX-560,560,0,low-bypass,2.5
+Pioneer PR-710,710,0,geared turbofan,3.1
+Quantum Q-230,230,0,high-bypass,2.7
+Raptor RT-450,450,0,ultra-high-bypass,3.2
+Strato ST-380,380,0,high-bypass,2.8
+Tempest TM-720,720,0,low-bypass,2.4
+Upsilon UV-480,480,0,geared turbofan,2.9
+Vivid V-620,620,0,ultra-high-bypass,3.3
+Warden W-330,330,0,high-bypass,2.7
+Xenon X-540,540,0,low-bypass,2.6
+Yield Y-420,420,0,high-bypass,2.8
+Zenith ZN-750,750,0,geared turbofan,3.1
+Aegean AE-340,340,0,ultra-high-bypass,3.2
+SkyPower SP-560,560,0,high-bypass,2.9
+Nimbus NX-470,470,0,low-bypass,2.5
+Falcon FT-880,880,0,geared turbofan,3.0
+Helix HX-260,260,0,ultra-high-bypass,2.8
+Lumen LS-550,550,0,high-bypass,2.7
+Mirage MX-610,610,0,low-bypass,2.4
+Nimbus NX-380,380,0,geared turbofan,2.9
+Orion OX-720,720,0,ultra-high-bypass,3.1
+Pioneer PR-430,430,0,high-bypass,2.8
+Quantum Q-880,880,0,low-bypass,2.5
+Raptor RT-910,910,0,geared turbofan,3.2
+Strato ST-460,460,0,high-bypass,2.7
+Tempest TM-840,840,0,ultra-high-bypass,3.0
+Upsilon UV-630,630,0,high-bypass,2.9
+Vivid V-750,750,0,low-bypass,2.6
+Warden W-590,590,0,geared turbofan,3.1
+Xenon X-680,680,0,ultra-high-bypass,3.2
+Yield Y-610,610,0,high-bypass,2.8
+Zenith ZN-880,880,0,low-bypass,2.5
+Aether AE-720,720,0,geared turbofan,2.9
+Breeze BR-210,210,0,ultra-high-bypass,3.0
+Crest CB-790,790,0,high-bypass,2.7
+Dart DS-950,950,0,low-bypass,2.4
+Eclipse EX-780,780,0,geared turbofan,3.1
+Falcon FT-340,340,0,ultra-high-bypass,2.8
+Glide GM-470,470,0,high-bypass,2.6
+Helix HX-550,550,0,low-bypass,2.5
+Iris IR-990,990,0,geared turbofan,3.2
+Javelin J-840,840,0,ultra-high-bypass,3.0
+Kestrel KS-320,320,0,high-bypass,2.7
+Maverick MV-710,710,0,geared turbofan,2.9
+Nimbus NX-540,540,0,high-bypass,2.8
+Orion OX-910,910,0,ultra-high-bypass,3.1
+Pioneer PR-560,560,0,high-bypass,2.7
+Quantum Q-430,430,0,low-bypass,2.5
+Raptor RT-620,620,0,geared turbofan,3.0
+Strato ST-580,580,0,ultra-high-bypass,3.2
+Tempest TM-160,160,0,high-bypass,2.6
+Upsilon UV-770,770,0,low-bypass,2.4
+Vivid V-850,850,0,geared turbofan,2.9
+Warden W-730,730,0,ultra-high-bypass,3.1
+Xenon X-410,410,0,high-bypass,2.8
+Yield Y-880,880,0,low-bypass,2.5
+Zenith ZN-960,960,0,geared turbofan,3.0
+GE9X-117B,3500,0,HighBypass:10.8:1,3.5
+Rolls-Royce UltraFan-2000,3400,0,HighBypass:10.5:1,3.6
+Pratt & Whitney PW1500GX,180,4,GearedFan,2.2
+CFM International LEAP-X2,280,0,HighBypass:10.3:1,2.9
+MTU Aero Engines V2500-E1,230,0,HighBypass:9.5:1,3.0
+Safran M80,150,0,MediumBypass:5.0:1,2.1
+Pratt & Whitney F119-PW-100,3500,0,LowBypass:0.5:1,3.8
+GE J404-190,350,0,LowBypass:0.9:1,2.5
+Rolls-Royce AE 2100,400,0,GearedTurbofan,3.2
+Honeywell HTF7000,360,0,HighBypass:11.0:1,3.3
+Rolls-Royce Trent XWB-84,350,0,HighBypass:5.5:1,2.8
+Airbus EB200,250,0,LowBypass:0.7:1,2.4
+Boeing 787 GEnx-2B67,260,0,HighBypass:9.8:1,2.9
+Rolls-Royce RB.211-524,155,0,MediumBypass:4.5:1,2.6
+Pratt & Whitney PW4000,275,0,HighBypass:10.0:1,3.1
+Honeywell TFE731,15,0,Turboprop,1.5
+PT6A-67F,13,0,Turboprop,1.2
+Lycoming O-320,65,0,Piston,0.6
+Rotax 912 iS,101,4,Piston,0.65
+Thielert PD 300,150,0,Electric,0.3
+GE9X-117B-2,3550,0,UltraHighBypass:11.2:1,3.5
+Rolls-Royce Ultrafan-2500,3800,0,UltraHighBypass:12.0:1,3.8
+Pratt & Whitney PW1900G,280,0,HighBypass:9.2:1,2.7
+CFM International LEAP-1E,290,0,HighBypass:9.6:1,2.9
+Airbus A320neo CFM LEAP-1A,165,0,HighBypass:10.2:1,2.4
+GE9X-117B-3,3480,0,UltraHighBypass:11.0:1,3.4
+Rolls-Royce Trent 7000,355,0,UltraHighBypass:10.5:1,3.0
+GE GEnx-2B61,275,0,HighBypass:10.1:1,3.2
+PT6D-31C,600,0,Turboprop,2.7
+PW1500G PMT,190,0,HighBypass:10.7:1,2.6
+Honeywell CEO-300,130,0,MediumBypass:5.2:1,2.2
+Safran Silvercrest,210,0,HighBypass:9.3:1,2.8
+MTU Vteen-X,125,0,LowBypass:0.8:1,2.5
+GE9X-117B-4,3520,0,UltraHighBypass:11.3:1,3.5
+Rolls-Royce Eagle III,340,0,MediumBypass:5.8:1,2.9
+Boeing 777X GTF-2B,250,0,UltraHighBypass:10.9:1,3.3
+PT6A-62B,600,0,Turboprop,2.3
+Lycoming IO-360,90,0,Piston,0.68
+Rotax 915 iS,150,4,Piston,0.70
+GE9X-117B-5,3540,0,UltraHighBypass:11.4:1,3.6
+Rolls-Royce Trent 500,350,0,UltraHighBypass:10.0:1,3.1
+CFM LEAP-X1,275,0,HighBypass:9.7:1,2.9
+Airbus A350 PW4000,260,0,HighBypass:10.4:1,3.0
+Thompson Aero AE-110,180,0,MediumBypass:5.5:1,2.5
+Rolls-Royce Merlin 101,170,0,Piston,0.8
+GE J408-190,400,0,LowBypass:1.2:1,3.0
+Honeywell TFE731-600,150,0,Turbofan,2.3
+Safran CFM56-7B4,180,0,HighBypass:9.9:1,2.6
+Pratt & Whitney R-987,250,0,LowBypass:0.6:1,2.7
+GE9X-117B-6,3560,0,UltraHighBypass:11.6:1,3.7
+Rolls-Royce Trent 900,375,0,UltraHighBypass:10.2:1,3.2
+CFM LEAP-1B,290,0,HighBypass:10.5:1,2.9
+GE9X-117B-7,3510,0,UltraHighBypass:10.9:1,3.4
+Rolls-Royce Ultrafan-3000,3900,0,UltraHighBypass:12.5:1,4.0
+PW1500G PMT-2,195,0,HighBypass:10.6:1,2.6
+Honeywell HTF97,300,0,HighBypass:11.1:1,2.8
+MTU V2519,235,0,HighBypass:9.4:1,2.9
+Safran M55,140,0,MediumBypass:5.1:1,2.2
+Lycoming O-580,260,0,Piston,0.9
+Rotax 912 iS-155,135,4,Piston,0.7
+GE9X-117B-8,3580,0,UltraHighBypass:11.7:1,3.8
+Rolls-Royce Eagle IV,345,0,MediumBypass:5.9:1,3.0
+Pratt & Whitney PW6000-2,210,0,HighBypass:10.0:1,2.5
+CFM LEAP-2,280,0,HighBypass:9.8:1,2.9
+Honeywell CEO-200,115,0,MediumBypass:4.8:1,2.1
+MTU V2500-E2,250,0,HighBypass:9.6:1,3.0
+GE9X-117B-9,3600,0,UltraHighBypass:11.8:1,3.9
+Rolls-Royce Trent XWB-900,340,0,UltraHighBypass:5.2:1,2.8
+PW127N,950,0,Turboprop,2.0
+Lycoming IO-540,225,0,Piston,0.85
+Rotax 912 iS-200,135,4,Piston,0.71
+GE9X-117B-10,3610,0,UltraHighBypass:11.9:1,4.0
+Rolls-Royce Merlin 120,190,0,Piston,0.85
+CFM LEAP-3,300,0,HighBypass:10.1:1,3.0
+Honeywell HTF7000-2,370,0,HighBypass:10.3:1,3.1
+Safran Silvercrest-2,215,0,HighBypass:9.9:1,2.9
+Pratt & Whitney PW4062,280,0,HighBypass:10.2:1,2.8
+GE J404-200,355,0,LowBypass:1.0:1,2.6
+Rolls-Royce AE 2100F,420,0,GearedTurbofan,3.3
+PT6D-21B,580,0,Turboprop,2.9
+Honeywell TFE731-400,165,0,Turbofan,2.4
+Safran M85,155,0,MediumBypass:5.3:1,2.3
+GE9X-117B-11,3620,0,UltraHighBypass:12.0:1,4.1
+Rolls-Royce Eagle V,350,0,MediumBypass:6.0:1,3.1
+PW1500G PMT-3,200,0,HighBypass:10.4:1,2.7
+Honeywell HTF7000-3,380,0,HighBypass:10.6:1,3.2
+MTU V2500-E3,260,0,HighBypass:9.7:1,3.0
+CFM LEAP-X3,295,0,HighBypass:10.0:1,2.9
+Lycoming O-360,85,0,Piston,0.65
+Rotax 915 iS-250,155,4,Piston,0.72
+GE9X-117B-12,3640,0,UltraHighBypass:12.1:1,4.2
+Rolls-Royce Trent 750,340,0,UltraHighBypass:10.3:1,3.0
+Pratt & Whitney PW127Q,960,0,Turboprop,2.1
+CFM LEAP-4,310,0,HighBypass:10.2:1,3.0
+Honeywell CEO-350,140,0,MediumBypass:5.0:1,2.2
+Safran M90,165,0,HighBypass:9.5:1,2.4
+Lycoming O-430,115,0,Piston,0.7
+AeroTech V1-100,15000,6,Inline-6,2.8
+AeroTech V2-200,18000,8,Inline-8,3.0
+AeroTech V3-300,21000,12,V-12,3.2
+AeroTech V4-400,24000,16,V-16,3.4
+AeroTech V5-500,27000,20,V-20,3.6
+AeroTech V6-600,30000,24,V-24,3.8
+AeroTech V7-700,33000,28,V-28,4.0
+AeroTech V8-800,36000,32,V-32,4.2
+AeroTech V9-900,39000,36,V-36,4.4
+AeroTech V10-1000,42000,40,V-40,4.6
+SkyPower 200,12000,4,Flat-4,2.5
+SkyPower 400,14000,6,Flat-6,2.7
+SkyPower 600,16000,8,Flat-8,2.9
+SkyPower 800,18000,10,Flat-10,3.1
+SkyPower 1000,20000,12,Flat-12,3.3
+PearlFusion X1,19000,6,Inline-6,2.8
+PearlFusion X2,21000,8,Inline-8,3.0
+PearlFusion X3,23000,12,V-12,3.2
+PearlFusion X4,25000,14,V-14,3.4
+PearlFusion X5,27000,16,V-16,3.6
+PearlFusion X6,29000,18,V-18,3.8
+PearlFusion X7,31000,20,V-20,4.0
+PearlFusion X8,33000,22,V-22,4.2
+NimbusCore Alpha,22000,8,Inline-8,2.9
+NimbusCore Beta,24000,10,Inline-10,3.1
+NimbusCore Gamma,26000,12,Inline-12,3.3
+NimbusCore Delta,28000,14,Inline-14,3.5
+NimbusCore Epsilon,30000,16,Inline-16,3.7
+VanguardX 101,15500,6,Inline-6,2.8
+VanguardX 102,17500,8,Inline-8,3.0
+VanguardX 103,19500,12,V-12,3.2
+VanguardX 104,21500,14,V-14,3.4
+VanguardX 105,23500,16,V-16,3.6
+VanguardX 106,25500,18,V-18,3.8
+HelixBoost 210,16500,6,Flat-6,2.7
+HelixBoost 220,18500,8,Flat-8,2.9
+HelixBoost 230,20500,10,Flat-10,3.1
+HelixBoost 240,22500,12,Flat-12,3.3
+HelixBoost 250,24500,14,Flat-14,3.5
+HelixBoost 260,26500,16,Flat-16,3.7
+QuartzEngine M1,19000,12,V-12,3.2
+QuartzEngine M2,21000,14,V-14,3.4
+QuartzEngine M3,23000,16,V-16,3.6
+QuartzEngine M4,25000,18,V-18,3.8
+QuartzEngine M5,27000,20,V-20,4.0
+QuartzEngine M6,29000,22,V-22,4.2
+AuroraDrive 301,20000,8,Inline-8,2.9
+AuroraDrive 302,22000,10,Inline-10,3.1
+AuroraDrive 303,24000,12,Inline-12,3.3
+AuroraDrive 304,26000,14,Inline-14,3.5
+AuroraDrive 305,28000,16,Inline-16,3.7
+AuroraDrive 306,30000,18,Inline-18,3.9
+TitanForce 401,21000,12,V-12,3.2
+TitanForce 402,23000,14,V-14,3.4
+TitanForce 403,25000,16,V-16,3.6
+TitanForce 404,27000,18,V-18,3.8
+TitanForce 405,29000,20,V-20,4.0
+TitanForce 406,31000,22,V-22,4.2
+EclipseCore A1,17500,8,Flat-8,2.9
+EclipseCore A2,19500,10,Flat-10,3.1
+EclipseCore A3,21500,12,Flat-12,3.3
+EclipseCore A4,23500,14,Flat-14,3.5
+EclipseCore A5,25500,16,Flat-16,3.7
+EclipseCore A6,27500,18,Flat-18,3.9
+ZenithPower B1,18500,6,Inline-6,2.8
+ZenithPower B2,20500,8,Inline-8,3.0
+ZenithPower B3,22500,10,Inline-10,3.2
+ZenithPower B4,24500,12,Inline-12,3.4
+ZenithPower B5,26500,14,Inline-14,3.6
+ZenithPower B6,28500,16,Inline-16,3.8
+StratoEngine C1,19500,12,V-12,3.2
+StratoEngine C2,21500,14,V-14,3.4
+StratoEngine C3,23500,16,V-16,3.6
+StratoEngine C4,25500,18,V-18,3.8
+StratoEngine C5,27500,20,V-20,4.0
+StratoEngine C6,29500,22,V-22,4.2
+PulseJet D1,16500,6,Inline-6,2.7
+PulseJet D2,18500,8,Inline-8,2.9
+PulseJet D3,20500,10,Inline-10,3.1
+PulseJet D4,22500,12,Inline-12,3.3
+PulseJet D5,24500,14,Inline-14,3.5
+PulseJet D6,26500,16,Inline-16,3.7
+NebulaDrive E1,19500,8,Flat-8,2.9
+NebulaDrive E2,21500,10,Flat-10,3.1
+NebulaDrive E3,23500,12,Flat-12,3.3
+NebulaDrive E4,25500,14,Flat-14,3.5
+NebulaDrive E5,27500,16,Flat-16,3.7
+NebulaDrive E6,29500,18,Flat-18,3.9
+AlphaCore F1,20500,10,Inline-10,3.0
+AlphaCore F2,22500,12,Inline-12,3.2
+AlphaCore F3,24500,14,Inline-14,3.4
+AlphaCore F4,26500,16,Inline-16,3.6
+AlphaCore F5,28500,18,Inline-18,3.8
+AlphaCore F6,30500,20,Inline-20,4.0
+BetaBoost G1,21500,12,V-12,3.2
+BetaBoost G2,23500,14,V-14,3.4
+BetaBoost G3,25500,16,V-16,3.6
+BetaBoost G4,27500,18,V-18,3.8
+BetaBoost G5,29500,20,V-20,4.0
+BetaBoost G6,31500,22,V-22,4.2
+GammaPower H1,18500,8,Flat-8,2.9
+GammaPower H2,20500,10,Flat-10,3.1
+GammaPower H3,22500,12,Flat-12,3.3
+GammaPower H4,24500,14,Flat-14,3.5
+GammaPower H5,26500,16,Flat-16,3.7
+GammaPower H6,28500,18,Flat-18,3.9
+DeltaDrive I1,19500,6,Inline-6,2.8
+DeltaDrive I2,21500,8,Inline-8,3.0
+DeltaDrive I3,23500,10,Inline-10,3.2
+DeltaDrive I4,25500,12,Inline-12,3.4
+DeltaDrive I5,27500,14,Inline-14,3.6
+DeltaDrive I6,29500,16,Inline-16,3.8
+EpsilonCore J1,20500,12,V-12,3.2
+EpsilonCore J2,22500,14,V-14,3.4
+EpsilonCore J3,24500,16,V-16,3.6
+EpsilonCore J4,26500,18,V-18,3.8
+EpsilonCore J5,28500,20,V-20,4.0
+EpsilonCore J6,30500,22,V-22,4.2
+ZetaEngine K1,21500,8,Flat-8,2.9
+ZetaEngine K2,23500,10,Flat-10,3.1
+ZetaEngine K3,25500,12,Flat-12,3.3
+ZetaEngine K4,27500,14,Flat-14,3.5
+ZetaEngine K5,29500,16,Flat-16,3.7
+ZetaEngine K6,31500,18,Flat-18,3.9
+ThetaCore L1,17500,6,Inline-6,2.7
