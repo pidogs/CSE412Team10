@@ -7,6 +7,25 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+# returns the columns that this table can be sorted by
+@app.route("/columns")
+def getColumns(): 
+    try:
+        conn = dbHelper.getConnection()
+        cur = conn.cursor()
+        cur.execute("""
+            SELECT column_name 
+            FROM information_schema.columns 
+            WHERE table_name = 'Model'
+            ORDER BY ordinal_position;
+        """)
+        columns = [row[0] for row in cur.fetchall()]
+        cur.close()
+        conn.close()
+        return jsonify(columns)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 # Justin's section don't touch unless for very minor fixes
 # Returns results of queries as JSON data.
 @app.route("/data")
