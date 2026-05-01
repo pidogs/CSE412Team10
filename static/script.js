@@ -21,10 +21,16 @@ function loadSortColumns() {
     opt.textContent = col;
     sortColumn.appendChild(opt);
   });
+  // Default to a real column otherwise ASC/DESC is ignored
+  sortColumn.value = cols[0];
 }
 
 tableScope.addEventListener('change', loadSortColumns);
 loadSortColumns();
+
+// Rerun query when sort options change
+sortColumn.addEventListener('change', fetchData);
+sortDirection.addEventListener('change', fetchData);
 
 function fetchData() {
   // Build the query string with the current filter and sort settings

@@ -11,5 +11,5 @@ DB_PORT = os.environ.get("PGPORT", "5432")
 
 def getConnection():
     return psycopg2.connect(
-        dbname=DB_NAME, user=DB_USER, host=DB_HOST, port=DB_PORT,password=""
+        dbname=DB_NAME, user=DB_USER, host=DB_HOST, port=DB_PORT,password="aircraft_db"
     )
