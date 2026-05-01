@@ -69,3 +69,25 @@ tr:nth-child(even) {
   color: red;
   margin-top: 10px;
 }
+
+.manufacturer-models-btn {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.manufacturer-models-detail td {
+  background: #f9f9fb;
+  vertical-align: top;
+  padding: 12px;
+}
+
+.manufacturer-models-detail .nested-caption {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.manufacturer-models-detail table {
+  margin-top: 0;
+  font-size: 13px;
+}

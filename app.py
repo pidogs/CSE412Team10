@@ -50,7 +50,34 @@ def handle_query():
     conn = dbHelper.getConnection()
     cur = conn.cursor()
 
-    if user_sort_col == "" or user_sort_col == None: # Don't want sorting
+    sort_dir_sql = "DESC" if user_sort_dir == "DESC" else "ASC"
+
+    if user_table == "Manufacturer":
+        order_clause = sql.SQL("")
+        if user_sort_col is not None and user_sort_col != "":
+            if user_sort_col == "ModelCount":
+                order_clause = (
+                    sql.SQL(" ORDER BY COALESCE(mm_cnt.cnt, 0) ")
+                    + sql.SQL(sort_dir_sql)
+                )
+            elif user_sort_col in ("Name", "YearFounded"):
+                order_clause = (
+                    sql.SQL(" ORDER BY {} ").format(sql.Identifier(user_sort_col))
+                    + sql.SQL(sort_dir_sql)
+                )
+        manufacturer_sql = sql.SQL("""
+            SELECT m."Name", m."YearFounded",
+                   COALESCE(mm_cnt.cnt, 0)::int AS "ModelCount"
+            FROM "Manufacturer" m
+            LEFT JOIN (
+                SELECT "ManufacturerName", COUNT(*) AS cnt
+                FROM "ModelManufacturer"
+                GROUP BY "ManufacturerName"
+            ) mm_cnt ON mm_cnt."ManufacturerName" = m."Name"
+            WHERE m."Name" LIKE %s
+        """) + order_clause
+        cur.execute(manufacturer_sql, (f"%{user_search}%",))
+    elif user_sort_col == "" or user_sort_col == None: # Don't want sorting
         cur.execute(sql.SQL("""
             SELECT * 
             FROM {}
@@ -62,12 +89,11 @@ def handle_query():
         # We have f-string here but it is being used just to specify
         # DESC or ASC (after our own processing) so it should be safe
         # Actual user input is still being formatted using psycopg2
-        sort_dir = "DESC" if user_sort_dir == "DESC" else "ASC"
         cur.execute(sql.SQL(f"""
             SELECT * 
             FROM {{}}
             WHERE {{}} LIKE %s
-            ORDER BY {{}} {sort_dir};
+            ORDER BY {{}} {sort_dir_sql};
         """).format(sql.Identifier(user_table), sql.Identifier(table_search_column[user_table]), sql.Identifier(user_sort_col)),
         (f"%{user_search}%",))
     result = {
@@ -77,6 +103,38 @@ def handle_query():
     print(result)
     return jsonify(result)
 # End Justin's section
+
+
+@app.route("/manufacturer-models")
+def manufacturer_models():
+    name = request.args.get("name")
+    if not name or not name.strip():
+        return jsonify({"error": "Missing manufacturer name"}), 400
+    conn = dbHelper.getConnection()
+    cur = conn.cursor()
+    try:
+        cur.execute(
+            """
+            SELECT m."AircraftName", m."VariantName", m."Range",
+                   mm."Country", mm."YearEnd"
+            FROM "ModelManufacturer" mm
+            INNER JOIN "Model" m
+              ON m."AircraftName" = mm."ModelAircraftName"
+             AND m."VariantName" = mm."ModelVariantName"
+            WHERE mm."ManufacturerName" = %s
+            ORDER BY m."AircraftName", m."VariantName";
+            """,
+            (name.strip(),),
+        )
+        result = {
+            "description": [col.name for col in cur.description],
+            "data": cur.fetchall(),
+        }
+        return jsonify(result)
+    finally:
+        cur.close()
+        conn.close()
+
 
 if __name__ == "__main__":
     app.run(debug=True)
