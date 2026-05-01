@@ -1,11 +1,11 @@
 import csv
 import os
-import db
+import dbHelper
 CSV_DIR = "SYNTHETIC_CSV"
 
 def resetDatabase():
     print("Connecting to database")
-    conn = db.getConnection()
+    conn = dbHelper.getConnection()
     conn.autocommit = True
     cursor = conn.cursor()
 
@@ -138,7 +138,7 @@ def loadCSV(file_path, table_name):
         return
 
     print(f"Loading data into {table_name} from {file_path}")
-    conn = db.getConnection()
+    conn = dbHelper.getConnection()
     cursor = conn.cursor()
 
     with open(file_path, "r", encoding="utf-8") as f:

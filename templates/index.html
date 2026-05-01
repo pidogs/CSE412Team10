@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hi</title>
-</head>
-<body>
-  <h1>Hello World!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Aircraft Database</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <h1>Aircraft Database</h1>
+    <div class="controls">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search aircraft..."
+      >
+      <select id="sortColumn">
+        <option value="">No Sort</option>
+      </select>
+      <select id="sortDirection">
+        <option value="ASC">Ascending</option>
+        <option value="DESC">Descending</option>
+      </select>
+      <button onclick="fetchData()">Search</button>
+    </div>
+    <table id="resultsTable">
+      <thead id="tableHead"></thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <div
+      id="error"
+      class="error"
+    ></div>
+    <script src="/static/script.js"></script>
+  </body>
 </html>

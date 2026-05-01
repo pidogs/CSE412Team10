@@ -1,0 +1,50 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  width: 200px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
