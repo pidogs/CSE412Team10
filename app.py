@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, render_template, jsonify, request, Response
 import dbHelper
 from psycopg2 import sql
 app = Flask(__name__)
@@ -34,18 +34,20 @@ def handle_query():
     #   description: list[str] containing column names
     #   data: list[list[<query data result type>]] containing all rows of the output
     # }
+    user_table = request.args.get("scope")
     user_search = request.args.get("search")
     user_sort_col = request.args.get("sort_col")
     user_sort_dir = request.args.get("sort_dir")
-    
+    if user_table is None:
+        return Response("Missing Table Scope", 401)
     conn = dbHelper.getConnection()
     cur = conn.cursor()
 
     if user_sort_col == "" or user_sort_col == None: # Don't want sorting
-        cur.execute("""
+        cur.execute(sql.SQL("""
             SELECT * 
-            FROM "Model";
-        """)
+            FROM {};
+        """).format(sql.Identifier(user_table)))
     else:
         # We have f-string here but it is being used just to specify
         # DESC or ASC (after our own processing) so it should be safe
@@ -53,9 +55,9 @@ def handle_query():
         sort_dir = "DESC" if user_sort_dir == "DESC" else "ASC"
         cur.execute(sql.SQL(f"""
             SELECT * 
-            FROM "Model"
+            FROM {{}}
             ORDER BY {{}} {sort_dir};
-        """).format(sql.Identifier(user_sort_col))) 
+        """).format(sql.Identifier(user_table), sql.Identifier(user_sort_col))) # type: ignore
     result = {
         "description": [col.name for col in cur.description],
         "data": cur.fetchall()
