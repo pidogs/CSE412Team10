@@ -8,19 +8,29 @@
   <body>
     <h1>Aircraft Database</h1>
     <div class="controls">
-      <input
-        type="text"
-        id="searchInput"
-        placeholder="Search aircraft..."
-      >
-      <select id="sortColumn">
-        <option value="">No Sort</option>
-      </select>
-      <select id="sortDirection">
-        <option value="ASC">Ascending</option>
-        <option value="DESC">Descending</option>
-      </select>
-      <button onclick="fetchData()">Search</button>
+      <div class="controls-row">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search aircraft..."
+        >
+        <select id="sortColumn">
+          <option value="">No Sort</option>
+        </select>
+        <select id="sortDirection">
+          <option value="ASC">Ascending</option>
+          <option value="DESC">Descending</option>
+        </select>
+        <button onclick="fetchData()">Search</button>
+      </div>
+      <div class="controls-scope">
+        <label for="tableScope" class="scope-label">Looking in</label>
+        <select id="tableScope" class="scope-select">
+          <option value="models">Aircraft models</option>
+          <option value="aircraft">Individual aircraft</option>
+          <option value="manufacturers">Manufacturers</option>
+        </select>
+      </div>
     </div>
     <table id="resultsTable">
       <thead id="tableHead"></thead>

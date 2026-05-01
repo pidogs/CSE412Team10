@@ -1,26 +1,35 @@
 const sortColumn = document.getElementById('sortColumn');
 const sortDirection = document.getElementById('sortDirection');
 const searchInput = document.getElementById('searchInput');
+const tableScope = document.getElementById('tableScope');
 const errorDiv = document.getElementById('error');
 
-// Load columns on page load
-fetch('/columns')
-    .then(r => r.json())
-    .then(cols => {
-      cols.forEach(col => {
-        const opt = document.createElement('option');
-        opt.value = col;
-        opt.textContent = col;
-        sortColumn.appendChild(opt);
-      });
-    })
-    .catch(err => {
-      errorDiv.textContent = 'Failed to load columns: ' + err;
-    });
+// Sort dropdown options per scope (until /columns?scope= is implemented server-side).
+const SORT_COLUMNS_BY_SCOPE = {
+  models: ['AircraftName', 'VariantName', 'Range'],
+  aircraft: ['Name'],
+  manufacturers: ['Name', 'YearFounded'],
+};
+
+function loadSortColumns() {
+  const cols = SORT_COLUMNS_BY_SCOPE[tableScope.value];
+  if (!cols) return;
+  sortColumn.innerHTML = '<option value="">No Sort</option>';
+  cols.forEach(col => {
+    const opt = document.createElement('option');
+    opt.value = col;
+    opt.textContent = col;
+    sortColumn.appendChild(opt);
+  });
+}
+
+tableScope.addEventListener('change', loadSortColumns);
+loadSortColumns();
 
 function fetchData() {
   // Build the query string with the current filter and sort settings
   const queryParams = new URLSearchParams();
+  queryParams.set('scope', tableScope.value);
   queryParams.set('search', searchInput.value);
   queryParams.set('sort_col', sortColumn.value);
   queryParams.set('sort_dir', sortDirection.value);
