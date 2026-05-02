@@ -15,5 +15,5 @@
 `python app.py`
 
 # dump the database
-`pg_dump -U aircraft_db -h 127.0.0.1 -p 5432 aircraft_db > aircraft_db_dump.sql`
+`pg_dump -U aircraft_db -h 127.0.0.1 -p 5432 aircraft_db > dump.sql`
 
