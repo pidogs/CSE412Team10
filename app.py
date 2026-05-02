@@ -79,9 +79,10 @@ def handle_query():
         cur.execute(manufacturer_sql, (f"%{user_search}%",))
     else:
         query_raw =  """SELECT * 
-            FROM {}
-            WHERE"""
-        query_raw += " OR ".join(["\n{} LIKE %s" for search_col in table_search_column[user_table]])
+            FROM {}"""
+        if search_columns := table_search_column[user_table]:
+            query_raw += "\nWHERE"
+            query_raw += " OR ".join(["\n{} LIKE %s" for _ in search_columns])
         
         if user_sort_col == "" or user_sort_col == None:
             query_raw += ";"
