@@ -74,7 +74,7 @@ def handle_query():
                 FROM "ModelManufacturer"
                 GROUP BY "ManufacturerName"
             ) mm_cnt ON mm_cnt."ManufacturerName" = m."Name"
-            WHERE m."Name" LIKE %s
+            WHERE m."Name" ILIKE %s
         """) + order_clause
         cur.execute(manufacturer_sql, (f"%{user_search}%",))
     else:
@@ -82,7 +82,7 @@ def handle_query():
             FROM {}"""
         if search_columns := table_search_column[user_table]:
             query_raw += "\nWHERE"
-            query_raw += " OR ".join(["\n{} LIKE %s" for _ in search_columns])
+            query_raw += " OR ".join(["\n{} ILIKE %s" for _ in search_columns])
         
         if user_sort_col == "" or user_sort_col == None:
             query_raw += ";"
