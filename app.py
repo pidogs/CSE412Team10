@@ -38,6 +38,7 @@ def handle_query():
         "Model": ["AircraftName", "VariantName"],
         "Aircraft": ["Name"],
         "Manufacturer": ["Name"],
+        "everything": ["AircraftName", "VariantName"],
     }
     user_table = request.args.get("scope")
     user_search = request.args.get("search")
@@ -79,8 +80,13 @@ def handle_query():
         cur.execute(manufacturer_sql, (f"%{user_search}%",))
     else:
         if user_table == "Model":
-            query_raw = '''
-                SELECT * 
+            query_raw = '''SELECT * 
+                FROM "Model"'''
+        elif user_table=="Aircraft":
+            query_raw =  '''SELECT * 
+                FROM "Aircraft"'''
+        else:
+            query_raw = '''SELECT * 
                 FROM "Model"
                 LEFT JOIN "ModelManufacturer" ON "Model"."AircraftName" = "ModelManufacturer"."ModelAircraftName" AND "Model"."VariantName" = "ModelManufacturer"."ModelVariantName"
                 LEFT JOIN "ModelEngineUsage" ON "Model"."AircraftName" = "ModelEngineUsage"."ModelAircraftName" AND "Model"."VariantName" = "ModelEngineUsage"."ModelVariantName"
@@ -89,10 +95,7 @@ def handle_query():
                 LEFT JOIN "SeatingArrangement" ON "ModelSeating"."SeatingID" = "SeatingArrangement"."ID"
                 LEFT JOIN "SpeedRecord" ON "Model"."AircraftName" = "SpeedRecord"."ModelAircraftName" AND "Model"."VariantName" = "SpeedRecord"."ModelVariantName"
             '''
-        else:
-            query_raw =  '''SELECT * 
-                FROM "Aircraft"'''
-            
+            user_table = "Model" # Hacky solution to use model for columns
         if search_columns := table_search_column[user_table]:
             query_raw += "\nWHERE"
             query_raw += " OR ".join(["\n{} ILIKE %s" for _ in search_columns])
