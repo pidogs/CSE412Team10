@@ -14,5 +14,6 @@
 ## Start the server
 `python app.py`
 
-# Notes
-in Model_Manufacturer.csv 9999 is for still active and 9998 is for variable end date
+# dump the database
+`pg_dump -U aircraft_db -h 127.0.0.1 -p 5432 aircraft_db > aircraft_db_dump.sql`
+
