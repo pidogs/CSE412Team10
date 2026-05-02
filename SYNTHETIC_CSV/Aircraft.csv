@@ -2650,23 +2650,13 @@ Z-12
 F-200
 A-350
 Airbus A330 Multi-role Tanker Transport
-J-20 Mighty Dragon
 KAI J-15
 L-1011 TriStar
-Boeing 777-300ER
 Boeing 777-200LR
-Boeing 767-300ER
-Boeing 757-200
-Boeing 747-8 Intercontinental
-Airbus A340-600
 Airbus A340-300
 Airbus A330-200
-Airbus A330-300
 Embraer EMB-145 Legacy
-Pilatus PC-12
 Beechcraft King Air B350
-Pilatus PC-24
-HondaJet HA-420
 Cirrus Vision Jet SF50
 Edge 540
 Fokker Dr.I
@@ -2691,7 +2681,6 @@ Sikorsky MH-60R Sea Hawk
 AgustaWestland AW101 Merlin
 Lockheed Martin C-27J Spartan
 Embraer EMB-121 Xingu
-Pilatus PC-6 Porter
 SkyHawk 500
 Aurora Pro Series
 Orion 7X
@@ -3059,7 +3048,6 @@ Boeing 767-200
 Boeing 767-300
 Boeing 767-400ER
 Boeing 777-200
-Boeing 777-200LR
 Boeing 777-300
 Boeing 777-9
 Boeing 777F
@@ -3132,8 +3120,6 @@ Boeing 767 Quasar
 Boeing 777 Echelon
 Boeing 787 Prism
 Boeing 717 Voyager
-Airbus A330-200
-Airbus A340-300
 Airbus Beluga XL
 Airbus A300ST
 Airbus A300-600ST

@@ -1,11 +1,11 @@
 Name,Octane,Energy_MJ_kg,Weight_lb_gal,Leaded,Color
-100LL,100,43,6,True,Straw Yellow
+100LL,100,43.0,6.0,True,Straw Yellow
 100LL-Green,101,43.2,6.05,True,Pale Green
 Jet A-1,75,42.8,6.2,False,Clear
-Jet B,78,43,6.1,False,Pale Blue
+Jet B,78,43.0,6.1,False,Pale Blue
 JP-5,77,42.9,6.3,False,Amber
 JP-8,77,42.8,6.4,False,Light Straw
 HEFA,85,42.5,6.2,False,Transparent
 Synthetic Kerostene,90,43.2,6.1,False,Straw
-Bio-Jet 100,88,43.1,6,False,Light Green
-Avgas 140,140,44,5.8,False,Clear
+Bio-Jet 100,88,43.1,6.0,False,Light Green
+Avgas 140,140,44.0,5.8,False,Clear
