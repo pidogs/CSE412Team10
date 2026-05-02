@@ -95,7 +95,7 @@ def handle_query():
             
         if search_columns := table_search_column[user_table]:
             query_raw += "\nWHERE"
-            query_raw += " OR ".join(["\n{} LIKE %s" for _ in search_columns])
+            query_raw += " OR ".join(["\n{} ILIKE %s" for _ in search_columns])
         
         if user_sort_col == "" or user_sort_col == None:
             query_raw += ";"
