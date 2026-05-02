@@ -1585,10 +1585,10 @@ Consolidated PBY-5 Cataline,200-43,3444.63
 Consolidated PBY-5 Cataline,ER-74,4680.19
 Consolidated PBY-5 Cataline,200-10,6023.44
 Consolidated PBY-5 Cataline,100-84,6664.37
-Focke-Wulf Fw 190 Würger,B-44,2459.01
-Focke-Wulf Fw 190 Würger,Max-76,7927.32
-Focke-Wulf Fw 190 Würger,Neo-88,7113.08
-Focke-Wulf Fw 190 Würger,A-48,6820.74
+Focke-Wulf Fw 190 Wurger,B-44,2459.01
+Focke-Wulf Fw 190 Wurger,Max-76,7927.32
+Focke-Wulf Fw 190 Wurger,Neo-88,7113.08
+Focke-Wulf Fw 190 Wurger,A-48,6820.74
 Republic F-84 Thunderjet,200-43,1938.82
 Republic F-84 Thunderjet,Neo-36,3985.99
 Republic F-84 Thunderjet,Mk.I-27,4739.16
@@ -2862,10 +2862,10 @@ Consolidated B-24 Liberator,100-52,1943.47
 Consolidated B-24 Liberator,LR-57,739.38
 Consolidated B-24 Liberator,Neo-10,3857.63
 Consolidated B-24 Liberator,200-27,5356.82
-Breguet Alizé,200-86,2309.17
-Breguet Alizé,B-45,5342.4
-Breguet Alizé,LR-53,2842.35
-Breguet Alizé,ER-76,3357.91
+Breguet Alize,200-86,2309.17
+Breguet Alize,B-45,5342.4
+Breguet Alize,LR-53,2842.35
+Breguet Alize,ER-76,3357.91
 Saab 340,A-65,6580.24
 Saab 340,100-77,5209.8
 Saab 340,B-89,3704.66
@@ -4222,10 +4222,10 @@ Mooney M20 Muster,B-49,6008.86
 Mooney M20 Muster,200-23,6695.77
 Mooney M20 Muster,ER-37,6817.54
 Mooney M20 Muster,100-90,5497.5
-Fw 190 Würger,B-80,2987.1
-Fw 190 Würger,Mk.I-89,3817.42
-Fw 190 Würger,B-5,6963.77
-Fw 190 Würger,B-69,4326.82
+Fw 190 Wurger,B-80,2987.1
+Fw 190 Wurger,Mk.I-89,3817.42
+Fw 190 Wurger,B-5,6963.77
+Fw 190 Wurger,B-69,4326.82
 Messerschmitt Me 262 Schwalbe,100-88,3041.52
 Messerschmitt Me 262 Schwalbe,100-25,3209.31
 Messerschmitt Me 262 Schwalbe,Mk.I-8,4836.26
@@ -7376,10 +7376,10 @@ Miles M.78 Mohawk,Mk.I-60,1363.63
 Miles M.78 Mohawk,B-27,5329.85
 Miles M.78 Mohawk,LR-53,6264.56
 Miles M.78 Mohawk,Neo-1,7852.17
-de Witt Łódż,200-67,3881.56
-de Witt Łódż,B-89,6512.34
-de Witt Łódż,Max-55,3178.49
-de Witt Łódż,Neo-70,3793.09
+de Witt odz,200-67,3881.56
+de Witt odz,B-89,6512.34
+de Witt odz,Max-55,3178.49
+de Witt odz,Neo-70,3793.09
 Barling Type A,A-41,1051.09
 Barling Type A,100-69,909.84
 Barling Type A,ER-17,6606.13
@@ -7575,10 +7575,10 @@ de Havilland Tiger Moth,Neo-46,2719.93
 de Havilland Tiger Moth,Neo-86,3905.5
 de Havilland Tiger Moth,200-84,2281.38
 de Havilland Tiger Moth,ER-89,3833.33
-Polish Zlín Z 143,Mk.I-72,5900.97
-Polish Zlín Z 143,ER-3,7485.37
-Polish Zlín Z 143,Max-42,3134.17
-Polish Zlín Z 143,Neo-96,2969.98
+Polish Zlin Z 143,Mk.I-72,5900.97
+Polish Zlin Z 143,ER-3,7485.37
+Polish Zlin Z 143,Max-42,3134.17
+Polish Zlin Z 143,Neo-96,2969.98
 Cessna 206 Stationair,Max-17,7891.09
 Cessna 206 Stationair,ER-95,1853.08
 Cessna 206 Stationair,LR-91,1726.9
