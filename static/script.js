@@ -61,6 +61,7 @@ function fetchData() {
   queryParams.set('sort_dir', sortDirection.value);
 
   // Clear any previous error message
+  errorDiv.style.display = 'none';
   errorDiv.textContent = '';
 
   // Show a loading message while waiting for the response

@@ -2,6 +2,23 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+  background: #6a747a;
+  background: linear-gradient(45deg, #34393d 10%, #0aeff7 90%);
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 0 1px 3px #0000004d;
+  margin-bottom: 24px;
+}
+
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 300px;
 }
 
 .controls {
@@ -10,6 +27,9 @@ body {
   align-items: flex-start;
   gap: 12px;
   margin-bottom: 20px;
+  background: #ffffff48;
+  padding: 16px;
+  border-radius: 8px;
 }
 
 .controls-row {
@@ -28,51 +48,96 @@ body {
 
 .scope-label {
   font-size: 14px;
+  color: #fff;
 }
 
 input,
 select,
 button {
-  padding: 8px;
+  padding: 8px 12px;
   font-size: 14px;
+  border: none;
+  border-radius: 6px;
 }
 
 input[type="text"],
 .scope-select {
-  width: 200px;
   max-width: 100%;
   box-sizing: border-box;
+}
+
+.searchBar {
+  width: 400px;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.plane-icon {
+  width: 22px;
+  height: 22px;
+  transform: rotate(45deg);
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #00000026;
 }
 
 th,
 td {
-  border: 1px solid #ddd;
-  padding: 8px;
+  border: none;
+  padding: 10px 12px;
   text-align: left;
 }
 
 th {
-  background-color: #f4f4f4;
+  background-color: #f8fafc;
 }
 
 tr:nth-child(even) {
-  background-color: #fafafa;
+  background-color: #f9fafb;
+}
+
+tr:hover {
+  background-color: #f0f9ff;
 }
 
 .error {
-  color: red;
+  color: #fef2f2;
+  background: #dc2626e6;
+  padding: 10px 14px;
+  border-radius: 6px;
   margin-top: 10px;
 }
 
 .manufacturer-models-btn {
   cursor: pointer;
   white-space: nowrap;
+  padding: 4px 10px;
+  font-size: 12px;
+  background: #64748b;
+}
+
+.manufacturer-models-btn:hover {
+  background: #475569;
 }
 
 .manufacturer-models-detail td {

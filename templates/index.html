@@ -9,26 +9,27 @@
     <h1>Aircraft Database</h1>
     <div class="controls">
       <div class="controls-row">
+        <label for="tableScope" class="scope-label">Looking in</label>
+        <select id="tableScope" class="scope-select">
+          <option value="Model">Aircraft models</option>
+          <option value="Aircraft">Individual aircraft</option>
+          <option value="Manufacturer">Manufacturers</option>
+        </select>
         <input
           type="text"
+          class="searchBar"
           id="searchInput"
           placeholder="Search aircraft..."
         >
+        <button onclick="fetchData()">Search</button>
+      </div>
+      <div class="controls-row">
         <select id="sortColumn">
           <option value="">No Sort</option>
         </select>
         <select id="sortDirection">
           <option value="ASC">Ascending</option>
           <option value="DESC">Descending</option>
-        </select>
-        <button onclick="fetchData()">Search</button>
-      </div>
-      <div class="controls-scope">
-        <label for="tableScope" class="scope-label">Looking in</label>
-        <select id="tableScope" class="scope-select">
-          <option value="Model">Aircraft models</option>
-          <option value="Aircraft">Individual aircraft</option>
-          <option value="Manufacturer">Manufacturers</option>
         </select>
       </div>
     </div>
@@ -39,6 +40,7 @@
     <div
       id="error"
       class="error"
+      style="display: none;"
     ></div>
     <script src="/static/script.js"></script>
   </body>
