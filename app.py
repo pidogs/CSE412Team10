@@ -79,10 +79,16 @@ def handle_query():
         cur.execute(manufacturer_sql, (f"%{user_search}%",))
     else:
         if user_table == "Model":
-            query_raw =  '''SELECT * 
-                FROM "Model" 
-                NATURAL JOIN "ModelEngineUsage" 
-                '''
+            query_raw = '''
+                SELECT * 
+                FROM "Model"
+                LEFT JOIN "ModelManufacturer" ON "Model"."AircraftName" = "ModelManufacturer"."ModelAircraftName" AND "Model"."VariantName" = "ModelManufacturer"."ModelVariantName"
+                LEFT JOIN "ModelEngineUsage" ON "Model"."AircraftName" = "ModelEngineUsage"."ModelAircraftName" AND "Model"."VariantName" = "ModelEngineUsage"."ModelVariantName"
+                LEFT JOIN "EngineType" ON "ModelEngineUsage"."EngineModelName" = "EngineType"."ModelName"
+                LEFT JOIN "ModelSeating" ON "Model"."AircraftName" = "ModelSeating"."ModelAircraftName" AND "Model"."VariantName" = "ModelSeating"."ModelVariantName"
+                LEFT JOIN "SeatingArrangement" ON "ModelSeating"."SeatingID" = "SeatingArrangement"."ID"
+                LEFT JOIN "SpeedRecord" ON "Model"."AircraftName" = "SpeedRecord"."ModelAircraftName" AND "Model"."VariantName" = "SpeedRecord"."ModelVariantName"
+            '''
         else:
             query_raw =  '''SELECT * 
                 FROM "Aircraft"'''
