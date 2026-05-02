@@ -35,9 +35,9 @@ def handle_query():
     #   data: list[list[<query data result type>]] containing all rows of the output
     # }
     table_search_column = {
-        "Model": "VariantName",
-        "Aircraft": "Name",
-        "Manufacturer": "Name",
+        "Model": ["AircraftName", "VariantName"],
+        "Aircraft": ["Name"],
+        "Manufacturer": ["Name"],
     }
     user_table = request.args.get("scope")
     user_search = request.args.get("search")
@@ -77,25 +77,25 @@ def handle_query():
             WHERE m."Name" LIKE %s
         """) + order_clause
         cur.execute(manufacturer_sql, (f"%{user_search}%",))
-    elif user_sort_col == "" or user_sort_col == None: # Don't want sorting
-        cur.execute(sql.SQL("""
-            SELECT * 
-            FROM {}
-            WHERE {} LIKE %s;
-            ;
-        """).format(sql.Identifier(user_table), sql.Identifier(table_search_column[user_table])),
-        (f"%{user_search}%",))
     else:
-        # We have f-string here but it is being used just to specify
-        # DESC or ASC (after our own processing) so it should be safe
-        # Actual user input is still being formatted using psycopg2
-        cur.execute(sql.SQL(f"""
-            SELECT * 
-            FROM {{}}
-            WHERE {{}} LIKE %s
-            ORDER BY {{}} {sort_dir_sql};
-        """).format(sql.Identifier(user_table), sql.Identifier(table_search_column[user_table]), sql.Identifier(user_sort_col)),
-        (f"%{user_search}%",))
+        query_raw =  """SELECT * 
+            FROM {}
+            WHERE"""
+        query_raw += " OR ".join(["\n{} LIKE %s" for search_col in table_search_column[user_table]])
+        
+        if user_sort_col == "" or user_sort_col == None:
+            query_raw += ";"
+            identifiers = [sql.Identifier(user_table)] + \
+                [sql.Identifier(search_col) for search_col in table_search_column[user_table]]
+        else:
+            query_raw += f"\nORDER BY {{}} {sort_dir_sql};"
+            identifiers = [sql.Identifier(user_table)] + \
+                [sql.Identifier(search_col) for search_col in table_search_column[user_table]] + \
+                [sql.Identifier(user_sort_col)]
+            
+        cur.execute(sql.SQL(query_raw).format(
+            *identifiers
+        ), tuple([f"%{user_search}%" for search_col in table_search_column[user_table]]))
     result = {
         "description": [col.name for col in cur.description],
         "data": cur.fetchall()
