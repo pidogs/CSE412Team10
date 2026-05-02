@@ -78,21 +78,26 @@ def handle_query():
         """) + order_clause
         cur.execute(manufacturer_sql, (f"%{user_search}%",))
     else:
-        query_raw =  """SELECT * 
-            FROM {}"""
+        if user_table == "Model":
+            query_raw =  '''SELECT * 
+                FROM "Model" 
+                NATURAL JOIN "ModelEngineUsage" 
+                '''
+        else:
+            query_raw =  '''SELECT * 
+                FROM "Aircraft"'''
+            
         if search_columns := table_search_column[user_table]:
             query_raw += "\nWHERE"
             query_raw += " OR ".join(["\n{} LIKE %s" for _ in search_columns])
         
         if user_sort_col == "" or user_sort_col == None:
             query_raw += ";"
-            identifiers = [sql.Identifier(user_table)] + \
-                [sql.Identifier(search_col) for search_col in table_search_column[user_table]]
+            identifiers = [sql.Identifier(user_table, search_col) for search_col in table_search_column[user_table]]
         else:
             query_raw += f"\nORDER BY {{}} {sort_dir_sql};"
-            identifiers = [sql.Identifier(user_table)] + \
-                [sql.Identifier(search_col) for search_col in table_search_column[user_table]] + \
-                [sql.Identifier(user_sort_col)]
+            identifiers = [sql.Identifier(user_table, search_col) for search_col in table_search_column[user_table]] + \
+                [sql.Identifier(user_table, user_sort_col)]
             
         cur.execute(sql.SQL(query_raw).format(
             *identifiers
@@ -101,7 +106,6 @@ def handle_query():
         "description": [col.name for col in cur.description],
         "data": cur.fetchall()
     }
-    print(result)
     return jsonify(result)
 # End Justin's section
 
