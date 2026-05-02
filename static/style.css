@@ -37,6 +37,7 @@ h1 {
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
+  width: 100%;
 }
 
 .controls-scope {
@@ -67,7 +68,7 @@ input[type="text"],
 }
 
 .searchBar {
-  width: 400px;
+  flex: 1;
 }
 
 button {
